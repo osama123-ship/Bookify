@@ -1,0 +1,62 @@
+html, body {
+    font-family: "Open Sans", sans-serif;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+:root {
+    --main-color: #1C2524;
+    --second-color: #2ECC71;
+}
+
+.logo {
+    height: 100px;
+    position: absolute;
+    top: -10px;
+    left: 50px;
+}
+
+nav {
+    background-color: var(--main-color);
+    border-radius: 15px;
+    padding: 2px;
+    border-bottom: 2px solid var(--second-color);
+}
+
+.navbar-nav {
+    display: flex;
+    gap: 15px;
+
+}
+.navbar-expand-lg .navbar-collapse{
+    margin-right: 20px;
+}
+.navbar-nav .nav-link {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus{
+    color:var(--second-color) !important;
+}
+
+.navbar-toggler {
+    background-color: var(--second-color); 
+    border: 1px solid var(--second-color) !important;
+    font-weight: bold;
+}
+.navbar-toggler-icon {
+    filter: invert(100%); 
+}
+
+.navbar-toggler:focus, 
+.navbar-toggler:active {
+    outline: 1px solid var(--second-color) !important; 
+    box-shadow: 1px solid var(--second-color) !important; 
+}

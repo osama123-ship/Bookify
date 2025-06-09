@@ -1,0 +1,88 @@
+﻿@using Bookify.ViewModels.TicketVM
+@model List<TicketVM>
+
+@{
+    Layout = "~/Views/Shared/NewLayout.cshtml";
+}
+<title>My Tickets</title>
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+    <style>
+        .ticket-card {
+            transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+        }
+
+            .ticket-card:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+            }
+
+        .badge {
+            font-size: 0.85rem;
+            padding: 5px 10px;
+            border-radius: 1rem;
+        }
+
+        .back-btn {
+            margin-top: 50px;
+        }
+    </style>
+</head>
+
+<body style="background-color:#e6f5ea">
+    <div class="container py-5">
+        <div class="text-center mb-5">
+            <h1 class="display-5 fw-bold text-success" style="letter-spacing: 1px;">🎟️ My Tickets</h1>
+            <div style="width: 60px; height: 3px; background-color: #198754; margin: 0 auto; border-radius: 2px;"></div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+            @foreach (var ticket in Model)
+            {
+                <div class="col">
+                    <div class="card shadow-sm h-100 ticket-card border-0 rounded-4">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold text-success mb-3">
+                                <i class="bi bi-calendar-event me-2 text-muted"></i>@ticket.EventName
+                            </h5>
+
+                            <p class="card-text mb-2">
+                                <i class="bi bi-ticket-detailed-fill me-2 text-muted"></i><strong>Type:</strong> @ticket.TickeTypeName
+                            </p>
+
+                            <p class="card-text mb-2">
+                                <i class="bi bi-cash-coin me-2 text-muted"></i><strong>Price:</strong> @ticket.Price EGP
+                            </p>
+
+                            <p class="card-text mb-2">
+                                <i class="bi bi-geo-alt-fill me-2 text-muted"></i><strong>Venue:</strong> @ticket.Venue
+                            </p>
+
+                            <p class="card-text mb-2">
+                                <i class="bi bi-clock-fill me-2 text-muted"></i><strong>Date:</strong> @ticket.Date.ToString("dd MMM yyyy, hh:mm tt")
+                            </p>
+
+                            <p class="card-text mt-3">
+                                <strong>Status:</strong>
+                                @if (ticket.State == true)
+                                {
+                                    <span class="badge bg-success">Available</span>
+                                }
+                                else if (ticket.State == false)
+                                {
+                                    <span class="badge bg-danger">Sold Out</span>
+                                }
+                                else
+                                {
+                                    <span class="badge bg-secondary">Unknown</span>
+                                }
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+
+    </div>
+</body>

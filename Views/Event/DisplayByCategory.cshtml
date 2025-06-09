@@ -1,0 +1,51 @@
+﻿@using Bookify.ViewModels.EventVM
+@model List<DisplayEventsVM>
+
+@{
+    Layout = "~/Views/Shared/NewLayout.cshtml";
+}
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<div class="container my-5">
+    <h2 class="mb-4 text-center fw-bold text-success">🎫 Available Events</h2>
+
+    <div class="row g-4 justify-content-center">
+        @foreach (var ev in Model)
+        {
+            <div class="col-md-6 col-lg-4">
+                <div class="card shadow-sm border-0 rounded-4 h-100 d-flex flex-column">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title fw-bold text-dark">@ev.Title</h5>
+                        <p class="card-text mb-1">
+                            <strong>Start Date:</strong> @ev.StartDate.ToString("yyyy-MM-dd")
+                        </p>
+                        <p class="card-text mb-3">
+                            <strong>End Date:</strong> @ev.EndDate.ToString("yyyy-MM-dd")
+                        </p>
+
+                        <div class="mt-auto d-grid gap-2">
+                            <a asp-action="DetailsForUser" asp-controller="Event" asp-route-id="@ev.Id"
+                               class="btn btn-outline-success rounded-pill fw-semibold">
+                                🔍 View Details
+                            </a>
+
+                            <a class="btn btn-success rounded-pill fw-semibold" asp-action="TempBooking" asp-controller="TemporaryBooking"
+                               asp-route-EventId="@ev.Id">
+                                🎟️ Buy Ticket
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+
+    <!-- زر الرجوع -->
+    <div class="text-center mt-5">
+        <a asp-action="EventCategories" asp-controller="Home"
+           class="btn btn-outline-secondary btn-lg rounded-pill fw-semibold">
+            🔙 Back to Home
+        </a>
+    </div>
+</div>

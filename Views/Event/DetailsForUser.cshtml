@@ -1,0 +1,111 @@
+﻿@model Bookify.ViewModels.EventVM.EventToViewVM
+@{
+    Layout = "~/Views/Shared/NewLayout.cshtml";
+    ViewData["Title"] = "Event Details";
+}
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <style>
+        .event-title {
+            color: #1c6b39; /* أخضر غامق */
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .card-header {
+            background-color: #d4edda; /* أخضر فاتح */
+            border-bottom: 1px solid #c3e6cb;
+            text-align: center;
+        }
+
+        .card-body {
+            background-color: #fefefe;
+            padding: 2rem;
+            animation: fadeIn 0.6s ease-in-out;
+        }
+
+        .row dt {
+            font-weight: bold;
+            color: #155724;
+            display: flex;
+            align-items: center;
+        }
+
+            .row dt i {
+                margin-right: 8px;
+            }
+
+        .btn-success {
+            background-color: #28a745;
+            border-color: #218838;
+            font-weight: bold;
+            padding: 0.6rem 1.5rem;
+            font-size: 1.1rem;
+        }
+
+            .btn-success:hover {
+                background-color: #218838;
+                border-color: #1e7e34;
+            }
+
+        @@keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+
+</head>
+
+<div class="container my-5">
+    <div class="card shadow-sm rounded-4 border-0" style="max-width: 750px; margin: auto; background-color: #f6fff8;">
+        <div class="card-header text-center rounded-top-4" style="background-color: #d4edda;">
+            <h3 class="mb-0 fw-bold text-success" style="font-size: 1.8rem;">
+                @Model.Title
+            </h3>
+        </div>
+
+        <div class="card-body px-4 py-5" style="max-width: 650px; margin: auto;">
+            <h5 class="text-success fw-bold mb-4 text-center" style="font-size: 1.3rem;">
+                تفاصيل الحدث
+            </h5>
+
+            <div class="d-grid gap-3" style="font-size: 1rem;">
+                <div>
+                    <strong>Description:</strong>
+                    <div class="text-muted">@Model.Description</div>
+                </div>
+
+                <div>
+                    <strong>StartTime:</strong>
+                    <div class="text-muted">@Model.StartTime</div>
+                </div>
+
+                <div>
+                    <strong>EndTime:</strong>
+                    <div class="text-muted">@Model.EndTime</div>
+                </div>
+
+                <div>
+                    <strong>Location:</strong>
+                    <div class="text-muted">@Model.Location</div>
+                </div>
+            </div>
+
+            <div class="text-center mt-5">
+                <a class="btn btn-outline-secondary px-4 py-2 fw-bold rounded-pill shadow-sm"
+                   asp-action="DisplayByCategory" asp-controller="Event"
+                   asp-route-CategoryId="@Model.CategoryId">
+                    🔙 Back to Events
+                </a>
+            </div>
+
+        </div>
+    </div>
+</div>

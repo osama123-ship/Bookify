@@ -1,0 +1,107 @@
+﻿@{
+    Layout = "~/Views/Shared/NewLayout.cshtml";
+}
+<link rel="stylesheet" href="/css/EventCategories/style.css">
+<link rel="stylesheet" href="/css/EventCategories/all.min.css">
+<link rel="stylesheet" href="/css/EventCategories/bootstrap.css">
+<body>
+
+    <div class="feature py-5">
+        <div class="container">
+            <p class="text-center fs-3 fw-bold mb-5">Our Most Important Features</p>
+
+            <div class="row g-4" >
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="text-center p-3 h-100 border rounded shadow-sm animate-box" style="background-color:#FFFFFF">
+                        <img src="/Images/Group 45.png" class="img-fluid mb-3" alt="">
+                        <h4>Instant Booking</h4>
+                        <p>Book your ticket in less than a minute without complications or many steps.</p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="text-center p-3 h-100 border rounded shadow-sm animate-box" style="background-color:#FFFFFF">
+                        <img src="/Images/Group 48.png" class="img-fluid mb-3" alt="">
+                        <h4>Event Explorer</h4>
+                        <p>All events in one place, sorted by type, location, and date.</p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="text-center p-3 h-100 border rounded shadow-sm animate-box" style="background-color:#FFFFFF">
+                        <img src="/Images/Group 47.png" class="img-fluid mb-3" alt="">
+                        <h4>Secure Payment</h4>
+                        <p>Pay safely using well-known and secure payment methods.</p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="text-center p-3 h-100 border rounded shadow-sm animate-box" style="background-color:#FFFFFF">
+                        <img src="/Images/Group 46.png" class="img-fluid mb-3" alt="">
+                        <h4>Smart Dashboard</h4>
+                        <p>Each user has a private page from which he can easily track his tickets and requests.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="matches py-5">
+        <div class="container ">
+            <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-12 col-md-4 mb-4 mb-md-0 me-5 ms-md-5 ms-lg-5">
+                    <img src="/Images/Group 68.png" class="img-fluid w-100" alt="Match Image">
+                </div>
+
+                <div class="col-12 col-md-4 text-center text-md-start ms-md-5 ms-lg-5">
+                    <h3 class="mb-3">Experience the Thrill of Live Sports Matches</h3>
+                    <a asp-action="DisplayByCategory" asp-controller="Event" asp-route-CategoryId="1" class="btn btn-success">Explore Matches</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="music ">
+        <div class="container ">
+            <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-12 col-md-4 text-center text-md-start ms-md-5 ms-lg-5">
+                    <h3 class="mb-3">Live the Music with Unforgettable Concerts</h3>
+                    <a asp-action="DisplayByCategory" asp-controller="Event" asp-route-CategoryId="2" class="btn btn-success">Discover party</a>
+                </div>
+                <div class="col-12 col-md-4 mb-4 mb-md-0 me-5 ms-md-5 ms-lg-5">
+                    <img src="/Images/Group 67.png" class="img-fluid w-100" alt="Match Image">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="theater py-5">
+        <div class="container ">
+            <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-12 col-md-4 mb-4 mb-md-0 me-5 ms-md-5 ms-lg-5">
+                    <img src="/Images/Group 66.png" class="img-fluid w-100" alt="Match Image">
+                </div>
+                <div class="col-12 col-md-4 text-center text-md-start ms-md-5 ms-lg-5">
+                    <h3 class="mb-3">Step into the Magic of Theater</h3>
+                    <a asp-action="DisplayByCategory" asp-controller="Event" asp-route-CategoryId="3" class="btn btn-success">Browse Theaters</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="container mb-5 mt-5">
+        <div class="div">
+            <img src="/Images/reviews.png" alt="" class="img-fluid w-100">
+        </div>
+    </div>
+
+
+</body>
+@section Scripts {
+    @{
+        <script src="/js/EventCategories/bootstrap.js"></script>
+        <script src="/js/EventCategories/main.js"></script>
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+

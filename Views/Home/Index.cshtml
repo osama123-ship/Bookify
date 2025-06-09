@@ -1,0 +1,50 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<link rel="stylesheet" href="/css/HomePage/style.css" asp-append-version="true">
+<link rel="stylesheet" href="/css/HomePage/bootstrap.css" asp-append-version="true">
+
+<body>
+    <div class="overlay"></div>
+
+    <div class="contianer">
+        <div class="content d-flex justify-content-center">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-sm-10 col-md-9 col-lg-6 text-center coll">
+                        <h2>BOOKFIY TICKETS</h2>
+                        <p>Log in or register to secure your spot at best cont!</p>
+                        <div class="btns">
+                            <button type="button" id="Login" class=" log_in btn fw-bold  rounded-pill pt-2 pb-2 pe-5 ps-5 me-3 btn-success">Login</button>
+                            <button type="button" id="Register"  class="btn fw-bold  rounded-pill pt-2 pb-2 pe-5 ps-5 ms-3 btn-success">Register</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copywrite ">
+        <div class="div text-light text-center">
+            <p>&copy; All rights reserved.</p>
+        </div>
+    </div>
+
+</body>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const loginUrl = '@Url.Action("Login", "Account")';
+        const registerUrl = '@Url.Action("Register", "Account")';
+
+        document.getElementById("Login").addEventListener("click", function () {
+            window.location.href = loginUrl;
+        });
+
+        document.getElementById("Register").addEventListener("click", function () {
+            window.location.href = registerUrl;
+        });
+    });
+</script>
+
+<script src="/js/HomePage/bootstrap.js" asp-append-version="true"></script>
+<script src="/js/HomePage/main.js" asp-append-version="true"></script>
+

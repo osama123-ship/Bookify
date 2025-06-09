@@ -1,0 +1,45 @@
+﻿@model Bookify.ViewModels.RolesVM.NewRoleVM
+
+@{
+    Layout = "~/Views/Shared/NewLayout.cshtml";
+    ViewData["Title"] = "New Role";
+}
+
+<link rel="stylesheet" href="~/css/NewRole/style.css" />
+<link rel="stylesheet" href="~/css/NewRole/all.min.css" />
+<link rel="stylesheet" href="~/css/NewRole/bootstrap.css" />
+
+<div class="overlay"></div>
+
+<div class="bg-image mt-5 mb-5" style="height: 65vh;">
+    <div class="container d-flex justify-content-center align-items-center h-100">
+        <div class="card p-5 forgot-box shadow-lg rounded-4" style="width: 500px; background-color: #ffffffee;">
+            <form asp-action="New">
+                <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                <h2 class="mb-4 text-center fw-bold">Add New Role</h2>
+
+                <div class="form-group mb-3">
+                    <label asp-for="Name" class="form-label"></label>
+                    <input asp-for="Name" class="form-control" required />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+
+                <button type="submit" class="btn btn-success w-100 mb-3 rounded-pill">
+                    <i class="fas fa-plus-circle me-2"></i> Add
+                </button>
+
+                <!-- زر الرجوع -->
+                <a asp-controller="Roles" asp-action="Index" class="btn btn-outline-secondary w-100 rounded-pill">
+                    <i class="fas fa-arrow-left me-2"></i> Back to Roles
+                </a>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+    <script src="~/js/NewRole/bootstrap.js"></script>
+    <script src="~/js/NewRole/main.js"></script>
+}

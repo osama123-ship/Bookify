@@ -1,0 +1,56 @@
+﻿@model Bookify.ViewModels.UserVM.UserLoginVM
+
+@{
+    ViewData["Title"] = "Login";
+}
+<link rel="stylesheet" href="/css/Login/style.css" asp-append-version="true">
+<link rel="stylesheet" href="/css/Login/all.min.css" asp-append-version="true">
+<link rel="stylesheet" href="/css/Login/bootstrap.css" asp-append-version="true">
+<body>
+    <div class="overlay"></div>
+
+    <div class="cont">
+        <h2 class="">Login</h2>
+        <form asp-action="Login" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="div1">
+                <label asp-for="EmailOrUserName" class="d-block">Username / Email</label>
+                <input asp-for="EmailOrUserName" class="d-block" required>
+                <div id="error"></div>
+@*                 <span asp-validation-for="EmailOrUserName" class="text-danger"></span>
+ *@            </div>
+
+            <div class="div2">      
+                    <label asp-for="Password" class="d-block"></label>
+                    <input asp-for="Password" class="d-block" required>
+                    <div id="error"></div>
+                @*  <span asp-validation-for="Password" class="text-danger"></span> *@  
+            </div>
+
+            <button type="submit" class="rounded-pill btn btn-secondary" style="margin:25px 0">Login</button>
+
+            <div class="remember-me">
+                <input type="checkbox" asp-for="RememberMe">
+                <label asp-for="RememberMe">Remember Me</label>
+            </div>
+
+            <div class="links">
+                <a class="one" href="@Url.Action("ForgetPassword", "Account")">Forget Password</a>
+                <div class="div">
+                    <p class="d-inline">Don’t have an acount?</p>
+                    <a class=" d-inlin two" href="/Account/Register">Register</a>
+                </div>
+            </div>
+
+            <p class="recaptcha">
+                This page is protected by Google to ensure you're not a bot. <a href="#">Learn more</a>
+            </p>
+        </form>
+    </div>
+    <script src="~/js/Login/bootstrap.js" asp-append-version="true"></script>
+    <script src="~/js/Login/main.js" asp-append-version="true"></script>
+</body>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,107 @@
+﻿@{
+    Layout = "~/Views/Shared/NewLayout.cshtml";
+}
+
+<head>
+    <link rel="stylesheet" href="~/css/Contact/style.css" />
+    <link rel="stylesheet" href="~/css/Contact/all.min.css" />
+    <link rel="stylesheet" href="~/css/Contact/bootstrap.css" />
+    <title>Contact Us</title>
+</head>
+
+
+<body>
+
+    <div class="box">
+        <div class="hidding">
+            <h1>Contact Us</h1>
+            <p>Any question or remarks? Just write us a message!</p>
+        </div>
+        <div class="card cont mb-3">
+            <div class="row g-0">
+                <div class="left col-md-5">
+                    <h3>Contact Information</h3>
+                    <div class="info">
+                        <div class="email">
+                            <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+                            <p>Bookfiy@gmail.com</p>
+                        </div>
+                        <div class="location">
+                            <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+                            <p>Egypt, Qena</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="right col-md-7">
+                    <div class="card-body">
+                        <form class="row g-3">
+                            <div class="form-group">
+                                <!-- Row 1 -->
+                                <div class="row">
+                                    <div class="input-box">
+                                        <label for="f_name" class="form-label">First Name</label>
+                                        <input type="text" class="form-control" id="f_name">
+                                    </div>
+                                    <div class="input-box">
+                                        <label for="l_name" class="form-label">Last Name</label>
+                                        <input type="text" class="form-control" id="l_name">
+                                    </div>
+                                </div>
+
+                                <!-- Row 2 -->
+                                <div class="row">
+                                    <div class="input-box">
+                                        <label for="email" class="form-label">Email</label>
+                                        <input type="email" class="form-control" id="email">
+                                    </div>
+                                    <div class="input-box">
+                                        <label for="phone" class="form-label">Phone Number</label>
+                                        <input type="text" class="form-control" id="phone">
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <fieldset class="row mb-3 radio">
+                                <legend class="col-form-label col-sm-5 pt-0 hid">Select Event?</legend>
+                                <div class=" col-sm-11 col-lg-10 select">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                                        <label class="form-check-label" for="gridRadios1">
+                                            Matches Event
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                                        <label class="form-check-label" for="gridRadios2">
+                                            Party Event
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
+                                        <label class="form-check-label" for="gridRadios3">
+                                            Theaters Event
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-12 Massage">
+                                    <label for="message" class="form-label">Message</label>
+                                    <textarea class="form-control" id="message" rows="3" placeholder="Write your message.."></textarea>
+                            </fieldset>
+
+                        </form>
+                        <div class="send-box">
+                            <div class="h">
+                                <button type="submit" class="submit">Send Massage</button>
+                                <img src="~/Images/letter_send 1 (1).png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="~/js/Contact/bootstrap.js"></script>
+    <script src="~/js/Contact/main.js"></script>
+</body>

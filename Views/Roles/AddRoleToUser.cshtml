@@ -1,0 +1,43 @@
+﻿@using Microsoft.AspNetCore.Identity
+@model Bookify.ViewModels.RolesVM.RoleToUserVM
+
+@{
+    Layout = "~/Views/Shared/NewLayout.cshtml";
+    ViewData["Title"] = "AddRoleToUser";
+    var roles = ViewBag.Roles as List<IdentityRole>;
+    var list = new SelectList(roles ?? new List<IdentityRole>(), "Name", "Name");
+}
+<link rel="stylesheet" href="~/css/RoleToUser/style.css">
+<link rel="stylesheet" href="~/css/RoleToUser/all.min.css">
+<link rel="stylesheet" href="~/css/RoleToUser/bootstrap.css">
+
+    <div class="overlay"></div>
+    
+    <div class="bg-image mt-5 mb-5" style="height: 65vh;">
+        <div class="container d-flex justify-content-center align-items-center h-100">
+            <div class="card  p-5  forgot-box" style="width: 500px;">
+            <form asp-action="AddRoleToUser">
+              <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <h2 class="mb-3 section-title">Role To User</h2>
+
+                <div class="form-group">
+                <label asp-for="UserName" class="control-label"></label>
+                <input asp-for="UserName" class="form-control mb-3" placeholder="Username" required>
+                </div>
+                <div class="form-group">
+                <label asp-for="RoleName" class="control-label"></label>
+                <select asp-for="RoleName" asp-items="@list" class="form-select mb-3">  </select>
+                <button class="rounded-pill btn btn-success w-100">Assign</button>
+                </div>
+            </form>
+            </div>
+        </div>
+    </div>
+    
+
+ 
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    <script src="~/js/RoleToUser/bootstrap.js"></script>
+    <script src="~/js/RoleToUser/main.js"></script>
+}

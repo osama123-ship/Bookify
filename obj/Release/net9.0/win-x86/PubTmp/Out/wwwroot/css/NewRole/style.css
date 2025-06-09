@@ -1,0 +1,74 @@
+﻿
+:root{
+    --main-color:#1C2524;
+    --second-color:#2ECC71;
+    --main-bg-color: #0f1a0f;
+    --card-bg-color: #1c2a1c;
+    --text-color: #fff;
+    --highlight-color: #2ECC71;
+    --input-bg-color: #2a3b2a;
+    --button-color: #3f5e3f;
+    --glow-color: #00ff00;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    /* height: calc(100vh - 16px); */
+    background-size: cover;
+    position: relative;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    z-index: -2333;
+}
+
+.forgot-box {
+    opacity: 0;
+    transform: translateY(10px);
+    transition: all 0.4s ease;
+}
+
+    .forgot-box.loaded {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+ 
+.section-title {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    color: #198754; /* لون أخضر زي Bootstrap success */
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.section-title::after {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 3px;
+    background-color: #198754;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    border-radius: 2px;
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

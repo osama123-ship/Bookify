@@ -1,0 +1,157 @@
+﻿@using Bookify.ViewModels.TemporaryBookingVM
+@model List<TemporaryToViewVM>
+
+@{
+    Layout = "~/Views/Shared/NewLayout.cshtml";
+    ViewBag.Title = "Temporary Reservations";
+    string path = "/Event/DisplayForAdmin";
+    if (User.IsInRole("Company"))
+        path = "/Company/DisplayAllForCompany";
+}
+ 
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+<style>
+    body {
+        background-color: #e9f7ef;
+    }
+
+    .search-box {
+        border-radius: 2rem;
+        padding: 0.6rem 1.2rem;
+        border: 1px solid #ccc;
+        width: 300px;
+    }
+
+    table {
+        background-color: white;
+        border-radius: 1rem;
+        overflow: hidden;
+    }
+
+    thead {
+        background-color: #2d6a4f;
+        color: white;
+    }
+
+    th, td {
+        padding: 0.75rem;
+        vertical-align: middle;
+    }
+
+    .fade-in-up {
+        animation: fadeUp 0.8s ease-in-out;
+    }
+
+    @@keyframes fadeUp {
+        from
+
+    {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    }
+
+    .highlight {
+        font-weight: 600;
+        color: #2d6a4f;
+    }
+
+    .back-btn {
+        border-radius: 2rem;
+        padding: 0.6rem 1.5rem;
+        font-weight: bold;
+    }
+
+    .custom-shadow {
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+    }
+
+    .empty-box {
+        background-color: #ffffff;
+        border: 2px dashed #ccc;
+        padding: 3rem;
+        border-radius: 1rem;
+        text-align: center;
+        color: #6c757d;
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+
+        .empty-box i {
+            font-size: 2rem;
+            color: #2d6a4f;
+            margin-bottom: 0.5rem;
+        }
+</style>
+
+<div class="container mt-5">
+    <h2 class="mb-4 text-success fw-bold" data-aos="fade-down">🕒 Temporary Reservations</h2>
+
+    <div class="mb-4 d-flex justify-content-between align-items-center flex-wrap gap-2" data-aos="fade-right">
+        <input type="text" id="searchInput" class="search-box" placeholder="🔍 Search by Username..." onkeyup="filterTable()" />
+        <a href="@path" class="btn btn-secondary back-btn shadow-sm">⬅️ Back to Panel</a>
+    </div>
+
+    @if (Model == null || !Model.Any())
+    {
+        <div class="empty-box fade-in-up" data-aos="fade-up">
+            <i class="bi bi-inbox"></i><br />
+            No reservations found at the moment 🌿<br />
+            Sit back and relax.
+        </div>
+    }
+    else
+    {
+        <div class="table-responsive fade-in-up" data-aos="fade-up">
+            <table class="table table-hover table-bordered custom-shadow">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>👤 Username</th>
+                        <th>🔢 Quantity</th>
+                        <th>⏳ Reserved At</th>
+                        <th>⌛ Expires At</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody">
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.Id</td>
+                            <td class="highlight">@item.UserName</td>
+                            <td>@item.Quantity</td>
+                            <td>@item.ReservedAt.ToString("g")</td>
+                            <td>@item.ExpiresAt.ToString("g")</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    }
+</div>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init({
+        duration: 500,
+        easing: 'ease-in-out',
+        once: true
+    });
+
+    function filterTable() {
+        const input = document.getElementById("searchInput").value.toLowerCase();
+        const rows = document.querySelectorAll("#tableBody tr");
+
+        rows.forEach(row => {
+            const userCell = row.cells[1].textContent.toLowerCase();
+            row.style.display = userCell.includes(input) ? "" : "none";
+        });
+    }
+</script>

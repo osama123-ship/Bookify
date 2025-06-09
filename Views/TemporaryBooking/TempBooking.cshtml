@@ -1,0 +1,207 @@
+﻿@using Bookify.ViewModels.TemporaryBookingVM
+@using Newtonsoft.Json
+@model Bookify.ViewModels.TemporaryBookingVM.BookTemporaryVM
+
+@{
+    Layout = "~/Views/Shared/NewLayout.cshtml";
+    ViewData["Title"] = "BookingTickets";
+    var Tickets = ViewBag.Tickets as List<BookTemporaryVM>;
+    var list = new SelectList(Tickets ?? new List<BookTemporaryVM>(), "TicketTypeId", "TicketName");
+    var ticketsJv = (ViewBag.Tickets as List<BookTemporaryVM>)?
+    .Select(t => new
+    {
+        id = t.TicketTypeId,
+        ticketName = t.TicketName,
+        price = t.Price,
+        availableTickets = t.AvailableTickets
+    }).ToList();
+
+    int remainingForUser = Math.Min(6 - ViewBag.CntForUser, ticketsJv.Sum(t => t.availableTickets));
+}
+
+<style>
+    body {
+        background-color: white;
+    }
+
+    .form-box {
+        max-width: 500px;
+        margin: auto;
+        background: #f8fff9;
+        padding: 25px;
+        border-radius: 16px;
+        box-shadow: 0 0 12px rgba(0,0,0,0.08);
+        border: 1px solid #d6f0db;
+    }
+
+        .form-box h2 {
+            margin-bottom: 20px;
+            text-align: center;
+            color: #198754;
+        }
+
+    .info-text {
+        font-weight: bold;
+        margin-top: 10px;
+    }
+
+    .error-message {
+        color: #d9534f;
+        font-size: 0.9em;
+        margin-top: 5px;
+        display: none;
+    }
+
+    button:disabled {
+        opacity: 0.6;
+        cursor: not-allowed;
+    }
+
+    .loading {
+        opacity: 0.7;
+        pointer-events: none;
+    }
+
+    .limit-warning {
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: #198754;
+    }
+
+        .limit-warning.red {
+            color: #d9534f;
+        }
+</style>
+
+<div class="form-box">
+    <h2>Add Ticket to Cart</h2>
+
+    <div id="limitWarning" class="limit-warning">
+        Number of tickets available for you to book for this event: <span id="userRemainingSpan">@remainingForUser</span>
+    </div>
+
+    <form asp-action="TempBooking" method="post" id="bookingForm" novalidate>
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+        <div class="form-group">
+            <label for="TicketTypeId">Ticket Type</label>
+            <select asp-for="TicketTypeId" class="form-control" id="ticketTypeSelect" asp-items="@list"></select>
+        </div>
+
+        <div class="form-group">
+            <label>Price: <span id="ticketPrice">--</span> EGP</label>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Quantity">Quantity</label>
+            <input asp-for="Quantity" class="form-control" id="ticketQuantity" type="number" min="1" value="1" />
+            <span class="error-message" id="quantityError">Quantity not available</span>
+            <span asp-validation-for="Quantity" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label>Total Price: <span id="totalCost">--</span> جنيه</label>
+        </div>
+
+        <div class="form-group">
+            <label>Available Tickets: <span id="availableTickets">--</span></label>
+        </div>
+
+        <input type="hidden" id="availableTicketsHidden" value="" />
+        <input asp-for="remaningForUesr" type="hidden" value="@remainingForUser" />
+        <button type="submit" class="btn btn-success mt-3 w-100 fw-bold" id="addToCartBtn">Add to Cart</button>
+    </form>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+
+    <script>
+        const tickets = @Html.Raw(JsonConvert.SerializeObject(ticketsJv));
+        const remainingForUser = @remainingForUser;
+
+        const ticketSelect = document.getElementById("ticketTypeSelect");
+        const priceSpan = document.getElementById("ticketPrice");
+        const quantityInput = document.getElementById("ticketQuantity");
+        const totalCostSpan = document.getElementById("totalCost");
+        const availableTicketsSpan = document.getElementById("availableTickets");
+        const availableHidden = document.getElementById("availableTicketsHidden");
+        const quantityError = document.getElementById("quantityError");
+        const addToCartBtn = document.getElementById("addToCartBtn");
+        const bookingForm = document.getElementById("bookingForm");
+        const limitWarning = document.getElementById("limitWarning");
+
+        function updateInfo() {
+            const selectedId = parseInt(ticketSelect.value);
+            const selected = tickets.find(t => t.id === selectedId);
+
+            if (selected) {
+                priceSpan.textContent = selected.price;
+                availableTicketsSpan.textContent = selected.availableTickets;
+                availableHidden.value = selected.availableTickets;
+
+                updateTotal();
+            } else {
+                priceSpan.textContent = "--";
+                availableTicketsSpan.textContent = "--";
+                totalCostSpan.textContent = "--";
+                addToCartBtn.disabled = true;
+            }
+        }
+
+        function updateTotal() {
+            const selectedId = parseInt(ticketSelect.value);
+            const selected = tickets.find(t => t.id === selectedId);
+            let qty = parseInt(quantityInput.value);
+
+            if (isNaN(qty) || qty < 1) {
+                qty = 1;
+                quantityInput.value = qty;
+            }
+
+            if (selected && qty > 0) {
+                if (qty <= selected.availableTickets && qty <= remainingForUser) {
+                    totalCostSpan.textContent = (qty * selected.price).toFixed(2);
+                    quantityError.style.display = "none";
+                    addToCartBtn.disabled = false;
+                    limitWarning.classList.remove("red");
+                } else {
+                    totalCostSpan.textContent = "--";
+                    quantityError.style.display = "block";
+                    addToCartBtn.disabled = true;
+                    limitWarning.classList.add("red");
+                }
+            } else {
+                totalCostSpan.textContent = "--";
+                quantityError.style.display = "none";
+                addToCartBtn.disabled = true;
+            }
+        }
+
+        ticketSelect.addEventListener("change", () => {
+            updateInfo();
+        });
+
+        quantityInput.addEventListener("input", () => {
+            updateTotal();
+        });
+
+        bookingForm.addEventListener("submit", (e) => {
+            if (addToCartBtn.disabled) {
+                e.preventDefault();
+                quantityError.style.display = "block";
+                quantityInput.focus();
+                return;
+            }
+
+            addToCartBtn.textContent = "Adding...";
+            addToCartBtn.classList.add("loading");
+            addToCartBtn.disabled = true;
+        });
+
+        document.addEventListener("DOMContentLoaded", function () {
+            updateInfo();
+        });
+    </script>
+}

@@ -1,0 +1,131 @@
+﻿@model Bookify.ViewModels.EventVM.EventToViewVM
+
+@{
+    Layout = "~/Views/Shared/NewLayout.cshtml";
+    ViewData["Title"] = "Event Details";
+}
+
+<style>
+    body {
+        background-color: #e9f9ec;
+    }
+
+    .form-label {
+        font-weight: 600;
+        color: #1b4332;
+    }
+
+    .card-custom {
+        max-width: 850px;
+        margin: 0 auto;
+        border-radius: 0.9rem;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        border: none;
+    }
+
+    .card-header-custom {
+        border-radius: 0.9rem 0.9rem 0 0;
+    }
+
+    .readonly-text {
+        padding: 0.45rem 0.75rem;
+        background-color: #ffffff;
+        border-radius: 0.5rem;
+        border: 1px solid #ced4da;
+        font-size: 0.95rem;
+        color: #495057;
+    }
+
+    .form-control {
+        font-size: 0.95rem;
+        padding: 0.5rem 0.75rem;
+    }
+
+    .btn-action {
+        font-size: 0.9rem;
+        padding: 0.5rem 1.3rem;
+        border-radius: 999px;
+    }
+</style>
+
+<div class="container my-5">
+    <div class="card card-custom">
+        <div class="card-header bg-success text-white card-header-custom">
+            <h4 class="mb-0">
+                <i class="fas fa-calendar-alt me-2"></i> @Model.Title
+            </h4>
+        </div>
+        <div class="card-body p-4">
+            <form asp-action="Edit" method="post">
+                <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                <div class="row g-3">
+                    <div class="col-md-6">
+                        <label class="form-label">Event ID</label>
+                        <div class="readonly-text">@Model.Id</div>
+                    </div>
+                    <div class="col-md-6">
+                        <label asp-for="Title" class="form-label">Title</label>
+                        <input asp-for="Title" class="form-control" />
+                    </div>
+
+                    <div class="col-md-6">
+                        <label asp-for="StartBookingTime" class="form-label">Start Booking</label>
+                        <input asp-for="StartBookingTime" class="form-control" />
+                    </div>
+                    <div class="col-md-6">
+                        <label asp-for="EndBookingTime" class="form-label">End Booking</label>
+                        <input asp-for="EndBookingTime" class="form-control" />
+                    </div>
+
+                    <div class="col-md-6">
+                        <label asp-for="StartTime" class="form-label">Start Time</label>
+                        <input asp-for="StartTime" class="form-control" />
+                    </div>
+                    <div class="col-md-6">
+                        <label asp-for="EndTime" class="form-label">End Time</label>
+                        <input asp-for="EndTime" class="form-control" />
+                    </div>
+
+                    <div class="col-md-6">
+                        <label asp-for="Location" class="form-label">Location</label>
+                        <input asp-for="Location" class="form-control" />
+                    </div>
+                    <div class="col-md-6">
+                        <label asp-for="CategoryId" class="form-label">Category ID</label>
+                        <div class="readonly-text">@Model.CategoryId</div>
+                    </div>
+
+                    <div class="col-12">
+                        <label asp-for="Description" class="form-label">Description</label>
+                        <input asp-for="Description" class="form-control" />
+                    </div>
+                </div>
+
+                <div class="d-flex justify-content-between align-items-center mt-4">
+                    <button type="submit" class="btn btn-success btn-action">
+                        💾 Save Changes
+                    </button>
+                    <a href="/Company/DisplayAllForCompany" class="btn btn-outline-secondary btn-action">
+                        ↩️ Back to Company Panel
+                    </a>
+                </div>
+            </form>
+
+            <div class="text-end mt-4">
+                <a asp-action="New"
+                   asp-controller="TicketType"
+                   asp-route-EventId="@Model.Id"
+                   class="btn btn-outline-success btn-action">
+                    ➕ Add Ticket Type
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

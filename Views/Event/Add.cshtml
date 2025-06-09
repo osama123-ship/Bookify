@@ -1,0 +1,115 @@
+﻿@model Bookify.ViewModels.EventVM.NewEventVM
+
+@{
+    Layout = "~/Views/Shared/NewLayout.cshtml";
+    var Categories = ViewBag.Categories as List<Category>;
+    SelectList list = Categories != null
+        ? new SelectList(Categories, "Id", "Name")
+        : new SelectList(Enumerable.Empty<SelectListItem>());
+}
+
+<head>
+    <link rel="stylesheet" href="~/css/AddEvent/style.css">
+    <link rel="stylesheet" href="~/css/AddEvent/all.min.css">
+    <link rel="stylesheet" href="~/css/AddEvent/bootstrap.css">
+    <style>
+        body {
+            background-color: #e6f5ea;
+        }
+
+        .card label {
+            font-weight: 600;
+            color: #14563a;
+        }
+
+        .form-control:focus {
+            border-color: #198754;
+            box-shadow: 0 0 0 0.2rem rgba(25, 135, 84, 0.25);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="overlay"></div>
+
+    <div class="container mt-5 mb-5">
+        <div class="row justify-content-center">
+            <div class="col-12 col-lg-11">
+                <div class="card p-4 shadow-lg rounded-4 border-0">
+                    <h2 class="text-center mb-4 text-success">
+                        <i class="fas fa-calendar-plus me-2"></i> Add New Event
+                    </h2>
+                    <form asp-action="Add" method="post">
+                        <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <div class="mb-3">
+                                    <label asp-for="Title" class="form-label">Title</label>
+                                    <input asp-for="Title" class="form-control" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label asp-for="Description" class="form-label">Description</label>
+                                    <textarea asp-for="Description" class="form-control" rows="4"></textarea>
+                                </div>
+                                <div class="mb-3">
+                                    <label asp-for="StartBookingTime" class="form-label">Start Booking Time</label>
+                                    <input asp-for="StartBookingTime" class="form-control datetimepicker" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label asp-for="EndBookingTime" class="form-label">End Booking Time</label>
+                                    <input asp-for="EndBookingTime" class="form-control" required>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-md-6">
+                                <div class="mb-3">
+                                    <label asp-for="StartTime">Start Time</label>
+                                    <input asp-for="StartTime" class="form-control" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label asp-for="EndTime">End Time</label>
+                                    <input asp-for="EndTime" class="form-control" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label asp-for="Location">Location Name</label>
+                                    <input asp-for="Location" class="form-control" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label asp-for="CategoryId">Category</label>
+                                    <select asp-for="CategoryId" asp-items="@list" class="form-select">
+                                        <option value="">-- Select Category --</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="d-grid mt-4 mb-2">
+                            <button type="submit" id="submitBtn" class="btn btn-success rounded-pill fw-semibold py-2">
+                                <i class="fas fa-plus-circle me-1"></i> Add Event
+                                <span class="spinner-border spinner-border-sm d-none" role="status" id="loadingSpinner"></span>
+                            </button>
+                        </div>
+
+                        <!-- Back to Company Panel -->
+                        <div class="text-center mt-3">
+                            <a asp-action="DisplayAllForCompany" asp-controller="Company"
+                               class="btn btn-outline-success rounded-pill px-4 py-2 fw-semibold">
+                                ← Back to Company Panel
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="~/js/AddEvent/bootstrap.js"></script>
+    <script src="~/js/AddEvent/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+}

@@ -1,0 +1,757 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Bookify.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Bookify.v99bih0ggq.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\Images\\Bookfiy-logo 2.png",
+      "PackagePath": "staticwebassets\\Images\\Bookfiy-logo 2.png"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\Images\\Consert.jpg",
+      "PackagePath": "staticwebassets\\Images\\Consert.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\Images\\Ellipse 25.png",
+      "PackagePath": "staticwebassets\\Images\\Ellipse 25.png"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\Images\\Ellipse 26.png",
+      "PackagePath": "staticwebassets\\Images\\Ellipse 26.png"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\Images\\Ellipse 27.png",
+      "PackagePath": "staticwebassets\\Images\\Ellipse 27.png"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\Images\\Ellipse 28.png",
+      "PackagePath": "staticwebassets\\Images\\Ellipse 28.png"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\Images\\Ellipse 29.png",
+      "PackagePath": "staticwebassets\\Images\\Ellipse 29.png"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\Images\\Ellipse 30.png",
+      "PackagePath": "staticwebassets\\Images\\Ellipse 30.png"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\Images\\Ellipse 31.png",
+      "PackagePath": "staticwebassets\\Images\\Ellipse 31.png"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\Images\\Ellipse 5.png",
+      "PackagePath": "staticwebassets\\Images\\Ellipse 5.png"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\Images\\Footer_Standard_Dark_Desktop (1).png",
+      "PackagePath": "staticwebassets\\Images\\Footer_Standard_Dark_Desktop (1).png"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\Images\\Footer_Standard_Dark_Desktop.png",
+      "PackagePath": "staticwebassets\\Images\\Footer_Standard_Dark_Desktop.png"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\Images\\Group (1).png",
+      "PackagePath": "staticwebassets\\Images\\Group (1).png"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\Images\\Group 45.png",
+      "PackagePath": "staticwebassets\\Images\\Group 45.png"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\Images\\Group 46.png",
+      "PackagePath": "staticwebassets\\Images\\Group 46.png"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\Images\\Group 47.png",
+      "PackagePath": "staticwebassets\\Images\\Group 47.png"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\Images\\Group 48.png",
+      "PackagePath": "staticwebassets\\Images\\Group 48.png"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\Images\\Group 66.png",
+      "PackagePath": "staticwebassets\\Images\\Group 66.png"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\Images\\Group 67.png",
+      "PackagePath": "staticwebassets\\Images\\Group 67.png"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\Images\\Group 68.png",
+      "PackagePath": "staticwebassets\\Images\\Group 68.png"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\Images\\Group.png",
+      "PackagePath": "staticwebassets\\Images\\Group.png"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\Images\\LoginPhoto.jpg",
+      "PackagePath": "staticwebassets\\Images\\LoginPhoto.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\Images\\Logo.png",
+      "PackagePath": "staticwebassets\\Images\\Logo.png"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\Images\\Main.png",
+      "PackagePath": "staticwebassets\\Images\\Main.png"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\Images\\Twitter.png",
+      "PackagePath": "staticwebassets\\Images\\Twitter.png"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\Images\\Vector.png",
+      "PackagePath": "staticwebassets\\Images\\Vector.png"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\Images\\advantages.png",
+      "PackagePath": "staticwebassets\\Images\\advantages.png"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\Images\\letter_send 1 (1).png",
+      "PackagePath": "staticwebassets\\Images\\letter_send 1 (1).png"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\Images\\profile.png",
+      "PackagePath": "staticwebassets\\Images\\profile.png"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\Images\\reviews.png",
+      "PackagePath": "staticwebassets\\Images\\reviews.png"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\Images\\tabler_clock.png",
+      "PackagePath": "staticwebassets\\Images\\tabler_clock.png"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\css\\About\\all.min.css",
+      "PackagePath": "staticwebassets\\css\\About\\all.min.css"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\css\\About\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\About\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\css\\About\\style.css",
+      "PackagePath": "staticwebassets\\css\\About\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\css\\AddEvent\\all.min.css",
+      "PackagePath": "staticwebassets\\css\\AddEvent\\all.min.css"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\css\\AddEvent\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\AddEvent\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\css\\AddEvent\\style.css",
+      "PackagePath": "staticwebassets\\css\\AddEvent\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\css\\Booking\\Booking.css",
+      "PackagePath": "staticwebassets\\css\\Booking\\Booking.css"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\css\\ConfirmAccount\\all.min.css",
+      "PackagePath": "staticwebassets\\css\\ConfirmAccount\\all.min.css"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\css\\ConfirmAccount\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\ConfirmAccount\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\css\\ConfirmAccount\\style.css",
+      "PackagePath": "staticwebassets\\css\\ConfirmAccount\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\css\\ConfirmResetPassword\\all.min.css",
+      "PackagePath": "staticwebassets\\css\\ConfirmResetPassword\\all.min.css"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\css\\ConfirmResetPassword\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\ConfirmResetPassword\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\css\\ConfirmResetPassword\\style.css",
+      "PackagePath": "staticwebassets\\css\\ConfirmResetPassword\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\css\\Contact\\all.min.css",
+      "PackagePath": "staticwebassets\\css\\Contact\\all.min.css"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\css\\Contact\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\Contact\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\css\\Contact\\style.css",
+      "PackagePath": "staticwebassets\\css\\Contact\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\css\\EventCategories\\all.min.css",
+      "PackagePath": "staticwebassets\\css\\EventCategories\\all.min.css"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\css\\EventCategories\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\EventCategories\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\css\\EventCategories\\style.css",
+      "PackagePath": "staticwebassets\\css\\EventCategories\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\css\\ForgetPassword\\all.min.css",
+      "PackagePath": "staticwebassets\\css\\ForgetPassword\\all.min.css"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\css\\ForgetPassword\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\ForgetPassword\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\css\\ForgetPassword\\style.css",
+      "PackagePath": "staticwebassets\\css\\ForgetPassword\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\css\\HomePage\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\HomePage\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\css\\HomePage\\style.css",
+      "PackagePath": "staticwebassets\\css\\HomePage\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\css\\Login\\all.min.css",
+      "PackagePath": "staticwebassets\\css\\Login\\all.min.css"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\css\\Login\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\Login\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\css\\Login\\style.css",
+      "PackagePath": "staticwebassets\\css\\Login\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\css\\Navpar\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\Navpar\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\css\\Navpar\\style.css",
+      "PackagePath": "staticwebassets\\css\\Navpar\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\css\\NewPassword\\all.min.css",
+      "PackagePath": "staticwebassets\\css\\NewPassword\\all.min.css"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\css\\NewPassword\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\NewPassword\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\css\\NewPassword\\style.css",
+      "PackagePath": "staticwebassets\\css\\NewPassword\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\css\\NewRole\\all.min.css",
+      "PackagePath": "staticwebassets\\css\\NewRole\\all.min.css"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\css\\NewRole\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\NewRole\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\css\\NewRole\\style.css",
+      "PackagePath": "staticwebassets\\css\\NewRole\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\css\\Register\\all.min.css",
+      "PackagePath": "staticwebassets\\css\\Register\\all.min.css"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\css\\Register\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\Register\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\css\\Register\\style.css",
+      "PackagePath": "staticwebassets\\css\\Register\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\css\\RoleToUser\\all.min.css",
+      "PackagePath": "staticwebassets\\css\\RoleToUser\\all.min.css"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\css\\RoleToUser\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\RoleToUser\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\css\\RoleToUser\\style.css",
+      "PackagePath": "staticwebassets\\css\\RoleToUser\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\css\\SendAndGetOtpToResetPassword\\all.min.css",
+      "PackagePath": "staticwebassets\\css\\SendAndGetOtpToResetPassword\\all.min.css"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\css\\SendAndGetOtpToResetPassword\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\SendAndGetOtpToResetPassword\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\css\\SendAndGetOtpToResetPassword\\style.css",
+      "PackagePath": "staticwebassets\\css\\SendAndGetOtpToResetPassword\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\css\\SideandFooter\\all.min.css",
+      "PackagePath": "staticwebassets\\css\\SideandFooter\\all.min.css"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\css\\SideandFooter\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\SideandFooter\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\css\\SideandFooter\\style.css",
+      "PackagePath": "staticwebassets\\css\\SideandFooter\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\css\\Users\\Users.css",
+      "PackagePath": "staticwebassets\\css\\Users\\Users.css"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\css\\fontawesome.css",
+      "PackagePath": "staticwebassets\\css\\fontawesome.css"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\js\\About\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\About\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\js\\About\\main.js",
+      "PackagePath": "staticwebassets\\js\\About\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\js\\AddEvent\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\AddEvent\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\js\\AddEvent\\main.js",
+      "PackagePath": "staticwebassets\\js\\AddEvent\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\js\\ConfirmAccount\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\ConfirmAccount\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\js\\ConfirmAccount\\main.js",
+      "PackagePath": "staticwebassets\\js\\ConfirmAccount\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\js\\ConfirmResetPassword\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\ConfirmResetPassword\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\js\\ConfirmResetPassword\\main.js",
+      "PackagePath": "staticwebassets\\js\\ConfirmResetPassword\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\js\\Contact\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\Contact\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\js\\Contact\\main.js",
+      "PackagePath": "staticwebassets\\js\\Contact\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\js\\EventCategories\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\EventCategories\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\js\\EventCategories\\main.js",
+      "PackagePath": "staticwebassets\\js\\EventCategories\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\js\\ForgetPassword\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\ForgetPassword\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\js\\ForgetPassword\\main.js",
+      "PackagePath": "staticwebassets\\js\\ForgetPassword\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\js\\HomePage\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\HomePage\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\js\\HomePage\\main.js",
+      "PackagePath": "staticwebassets\\js\\HomePage\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\js\\Login\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\Login\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\js\\Login\\main.js",
+      "PackagePath": "staticwebassets\\js\\Login\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\js\\Navpar\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\Navpar\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\js\\Navpar\\main.js",
+      "PackagePath": "staticwebassets\\js\\Navpar\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\js\\NewPassword\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\NewPassword\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\js\\NewPassword\\main.js",
+      "PackagePath": "staticwebassets\\js\\NewPassword\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\js\\NewRole\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\NewRole\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\js\\NewRole\\main.js",
+      "PackagePath": "staticwebassets\\js\\NewRole\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\js\\Register\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\Register\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\js\\Register\\main.js",
+      "PackagePath": "staticwebassets\\js\\Register\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\js\\RoleToUser\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\RoleToUser\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\js\\RoleToUser\\main.js",
+      "PackagePath": "staticwebassets\\js\\RoleToUser\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\js\\SendAndGetOtpToResetPassword\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\SendAndGetOtpToResetPassword\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\js\\SendAndGetOtpToResetPassword\\main.js",
+      "PackagePath": "staticwebassets\\js\\SendAndGetOtpToResetPassword\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\js\\SideandFooter\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\SideandFooter\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\js\\SideandFooter\\main.js",
+      "PackagePath": "staticwebassets\\js\\SideandFooter\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.js"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.js"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\wepfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\wepfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\wepfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\wepfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\wepfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\wepfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\wepfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\wepfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\wepfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\wepfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\wepfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\wepfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\wepfonts\\fa-v4compatibility.ttf",
+      "PackagePath": "staticwebassets\\wepfonts\\fa-v4compatibility.ttf"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\wwwroot\\wepfonts\\fa-v4compatibility.woff2",
+      "PackagePath": "staticwebassets\\wepfonts\\fa-v4compatibility.woff2"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.Bookify.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.Bookify.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.Bookify.props",
+      "PackagePath": "build\\Bookify.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.Bookify.props",
+      "PackagePath": "buildMultiTargeting\\Bookify.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.Bookify.props",
+      "PackagePath": "buildTransitive\\Bookify.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

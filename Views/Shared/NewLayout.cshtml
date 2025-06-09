@@ -1,0 +1,218 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet" href="~/css/SideandFooter/all.min.css" asp-append-version="true">
+    <link rel="stylesheet" href="~/css/SideandFooter/style.css" asp-append-version="true">
+    <link rel="stylesheet" href="~/css/SideandFooter/bootstrap.css" asp-append-version="true">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" asp-append-version="true">
+    <link rel="preconnect" href="https://fonts.googleapis.com" asp-append-version="true">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin asp-append-version="true">
+    <title>Events</title>
+</head>
+<body style="background-color:#e6f5ea;">
+    <nav class="me-5 ms-5 mt-3 navbar">
+        <div class="container d-flex justify-content-between align-items-center">
+
+            <div class="d-flex align-items-center">
+                <a class="navbar-brand" href="/Home/EventCategories">
+                    <img class="logo" src="~/Images/Logo.png" alt="">
+                </a>
+
+                @if (User.Identity.IsAuthenticated && (User.IsInRole("Admin") || User.IsInRole("Company")))
+                {
+                    if (User.IsInRole("Admin"))
+                    {
+                        <div class="dropdown" style="margin-left: 6rem;">
+                            <a class="btn btn-secondary" role="button" href="/Home/AdminPanel" aria-expanded="false">
+                                <i class="fas fa-user-shield me-1"></i> Admin Panel
+                            </a>
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="dropdown" style="margin-left: 6rem;">
+                            <a class="btn btn-secondary" role="button" href="/Company/DisplayAllForCompany" aria-expanded="false">
+                                <i class="fas fa-user-shield me-1"></i> Company Panel
+                            </a>
+                        </div>
+                    }
+                }
+            </div>
+
+            <div class="justify-content-end items" id="navbarNavAltMarkup">
+                <ul class="navbar-nav d-flex flex-row content">
+                    @if (User.Identity.IsAuthenticated)
+                    {
+@*                         <li class="nav-item pt-2 pb-2 me-4">
+                            <a href="" class="nav-link">
+                                <i class="fas fa-user-circle fa-lg nav-icon" style="color: #6c757d;"></i>
+                            </a>
+                        </li> *@
+
+                        <li class="nav-item pt-2 pb-2 me-4">
+                            <a href="/Account/Cart" class="nav-link">
+                                <i class="fas fa-shopping-cart fa-lg nav-icon" style="color: #6c757d;"></i>
+                            </a>
+                        </li>
+
+                        <li class="nav-item pt-2 pb-2 me-4">
+                            <a href="/Account/MyTickets" class="nav-link" title="My Tickets">
+                                <i class="fas fa-receipt fa-lg nav-icon" style="color: #6c757d;"></i>
+                            </a>
+                        </li>
+                    }
+                    else
+                    {
+                        <li class="nav-item pt-2 pb-2 me-4">
+                            <a href="/Account/Register" class="nav-link d-inline-flex align-items-center nav-register-link">
+                                <i class="fas fa-user-plus fa-lg me-2"></i> Register
+                            </a>
+                        </li>
+                    }
+
+                    <button type="button">
+                    <li class="nav-item3 pt-2 pb-2 me-4">
+                        <i class="fas fa-stream fa-lg" style="color: #6c757d;"></i>
+                    </li>
+                    </button>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+
+    <div class="sidebar " id="sidebar">
+        <div class="items">
+            <button class="close" type="button" aria-label="Close Sidebar">x</button>
+            <ul class="links">
+                @if (!User.Identity.IsAuthenticated)
+                {
+                    <li>  
+                        <a href="/Home/Index">Home</a>
+                        <i class="fa-solid fa-house" aria-hidden="true"></i>
+                    </li>
+                }
+                <li>
+                    <a href="/Home/EventCategories">Event</a>
+                    <i class="fa-solid fa-calendar-days" aria-hidden="true"></i>
+                </li>
+                <li>
+                    <a href="/Home/About">About</a>
+                    <i class="fa-solid fa-address-card" aria-hidden="true"></i>
+                </li>
+                <li>
+                    <a href="/Home/Contact">Contact</a>
+                    <i class="fa-solid fa-phone" aria-hidden="true"></i>
+                </li>
+                @if (User.Identity.IsAuthenticated)
+                {
+                    <li>
+                        <a href="/Account/Logout">Logout</a>
+                        <i class="fa-solid fa-right-from-bracket" aria-hidden="true"></i>
+                    </li>
+                }
+            </ul>
+        </div>
+        <div class="social">
+            <a href="https://www.facebook.com/profile.php?id=61576973304529" target="_blank" class="facebook"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://x.com/bookifyotp" target="_blank" class="twitter"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.instagram.com/bookifyotp/" target="_blank" class="instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/bookify17/about/?viewAsMember=true" target="_blank" class="linkedin"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+    </div>
+
+    <div class="d-flex flex-column min-vh-100">
+        <main class="flex-fill">
+            @RenderBody()
+        </main>
+    </div>
+
+    <div class="footer">
+        <div class="top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-12 col-lg-3 mb-4">
+                        <img src="~/Images/Logo.png" alt="">
+                        <div class="icons">
+                            <a href="https://www.facebook.com/profile.php?id=61576973304529" target="_blank" class="facebook"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://x.com/bookifyotp" target="_blank" class="twitter"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/bookifyotp/" target="_blank" class="instagram"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/company/bookify17/about/?viewAsMember=true" target="_blank" class="linkedin"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 col-lg-2 mb-4">
+                        <p>Fly With Us</p>
+                    </div>
+                    <div class="col-md-4 col-sm-12 col-lg-2 mb-4">
+                        <p>Account</p>
+                        <ul>
+                            @if (User.Identity.IsAuthenticated)
+                            {
+                               @*  <li><a href="">My Account</a></li> *@
+                                <li><a href="/Account/Cart">Cart</a></li>
+                                <li><a href="/Home/EventCategories">Events</a></li>
+                            }
+                            else
+                            {
+                                <li><a href="/Account/Login">Login</a></li>
+                                <li><a href="/Account/Register">Register</a></li>
+                            }   
+                        </ul>
+                    </div>
+                    <div class="col-md-4 col-sm-12 col-lg-2">
+                        <p>Inspiration</p>
+                    </div>
+                    <div class="col-md-4 col-sm-12 col-lg-2">
+                        <p>Support</p>
+                        <ul>
+                            <li><a href="/Home/Contact">Contact Us</a></li>
+                          @*   <li><a href="">FAQ</a></li>
+                            <li><a href="">Got an idea</a></li> *@
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="container">
+                <div class="row">
+ @*                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <p>Designed by <a href="">Team Developer</a></p>
+                    </div> *@
+                    <div class="col-lg-3 col-md-3 col-sm-3">
+                        <a href="/Home/Privacy">Privacy policy</a>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3">
+                        <a href="/Home/TermsOfServices">Terms of service</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js"></script>
+    <script src="~/js/SideandFooter/main.js"></script>
+    <script src="https://unpkg.com/@@popperjs/core@2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+    <script>
+                var dropdownElementList = [].slice.call(document.querySelectorAll('.dropdown-toggle'))
+        var dropdownList = dropdownElementList.map(function (dropdownToggleEl) {
+          return new bootstrap.Dropdown(dropdownToggleEl)
+        })
+
+    </script>
+</body>
+</html>

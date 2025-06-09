@@ -1,0 +1,36 @@
+﻿@using Bookify.ViewModels.EventVM
+@model List<DisplayEventsVM>
+@{
+    Layout = "~/Views/Shared/NewLayout.cshtml";
+}
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<div class="container my-5">
+    <h2 class="mb-4 text-center">قائمة الأحداث</h2>
+    <div class="row g-4 justify-content-center">
+        @foreach (var ev in Model)
+        {
+            <div class="col-md-6 col-lg-4">
+                <div class="card shadow-sm rounded-4 h-100 d-flex flex-column">
+                    <div class="card-body flex-grow-1">
+                        <h5 class="card-title fw-bold">@ev.Title</h5>
+                        <p class="card-text mb-1">
+                            <strong>StartDate:</strong> @ev.StartDate.ToString("yyyy-MM-dd")
+                        </p>
+                        <p class="card-text mb-3">
+                            <strong>EndDate:</strong> @ev.EndDate.ToString("yyyy-MM-dd")
+                        </p>
+                        <a asp-action="DetailsForUser" asp-controller="Event" asp-route-id="@ev.Id" class="btn btn-primary mt-auto">
+                            Details
+                        </a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+
+    <div class="text-center mt-5">
+        <a asp-action="Index" asp-controller="Home" class="btn btn-success btn-lg">العودة إلى الصفحة الرئيسية</a>
+    </div>
+</div>
+

@@ -1,0 +1,102 @@
+﻿
+@{
+    Layout = "~/Views/Shared/NewLayout.cshtml";
+}
+
+<head>
+    <title>Admin Panel</title>
+
+    <style>
+        body {
+            background-color: #f1f3f5;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .dashboard-card {
+            background-color: #fff;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            padding: 20px;
+            transition: all 0.3s ease-in-out;
+            cursor: pointer;
+            text-align: center;
+        }
+
+            .dashboard-card:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+            }
+
+            .dashboard-card i {
+                font-size: 2.5rem;
+                color: #0d6efd;
+                margin-bottom: 10px;
+            }
+
+            .dashboard-card h5 {
+                margin-top: 10px;
+                font-weight: bold;
+            }
+
+        .dashboard-container {
+            padding: 40px 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container dashboard-container">
+        <h2 class="mb-4 text-center">Control Panel</h2>
+        <div class="row g-4">
+
+            <div class="col-12 col-md-6 col-lg-3">
+                <a href="/Users/Index" class="text-decoration-none text-dark">
+                    <div class="dashboard-card">
+                        <i class="fas fa-users"></i>
+                        <h5>Users</h5>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+                <a href="/Roles/Index" class="text-decoration-none text-dark">
+                    <div class="dashboard-card">
+                        <i class="fas fa-user-shield"></i>
+                        <h5>Roles</h5>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+                <a href="/Event/DisplayForAdmin" class="text-decoration-none text-dark">
+                    <div class="dashboard-card">
+                        <i class="fas fa-calendar-alt"></i>
+                        <h5>Events</h5>
+                    </div>
+                </a>
+            </div>
+
+
+            <div class="col-12 col-md-6 col-lg-3">
+                <a href="/Booking/Index" class="text-decoration-none text-dark">
+                    <div class="dashboard-card">
+                        <i class="fas fa-calendar-check"></i>
+                        <h5>Bookings</h5>
+                    </div>
+                </a>
+            </div>
+             
+            <div class="row g-4">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <a href="/Category/Index" class="text-decoration-none text-dark">
+                        <div class="dashboard-card">
+                            <i class="fas fa-tags"></i>
+                            <h5>Categories</h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        </div>
+</body>

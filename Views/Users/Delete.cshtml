@@ -1,0 +1,24 @@
+﻿@model Bookify.ViewModels.UserVM.UserVM
+@{
+    Layout = "~/Views/Shared/NewLayout.cshtml";
+
+    ViewData["Title"] = "Delete User";
+}
+<link rel="stylesheet" href="/css/Users/Users.css" />
+
+<div class="user-container">
+    <div class="user-inner-box text-center">
+        <h2 class="mb-4">Confirm Deletion</h2>
+
+        <p><strong>User Name:</strong> @Model.UserName</p>
+        <p><strong>Email:</strong> @Model.Email</p>
+        <p><strong>Role:</strong> @Model.Role</p>
+
+        <form asp-action="Delete" method="post" class="mt-4">
+            <input type="hidden" asp-for="Id" />
+
+            <button type="submit" class="btn-red w-100 mb-2">Yes, Delete</button>
+            <a asp-action="Index" class="btn-green w-100">Cancel</a>
+        </form>
+    </div>
+</div>

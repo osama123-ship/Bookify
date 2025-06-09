@@ -1,0 +1,47 @@
+﻿@model Bookify.ViewModels.CategoryVM.NewCategoryVM
+
+@{
+    Layout = "~/Views/Shared/NewLayout.cshtml";
+    ViewData["Title"] = "NewCategory";
+}
+<link rel="stylesheet" href="~/css/NewRole/style.css">
+<link rel="stylesheet" href="~/css/NewRole/all.min.css">
+<link rel="stylesheet" href="~/css/NewRole/bootstrap.css">
+
+<div class="overlay"></div>
+
+<div class="bg-image mt-5 mb-5" style="height: 65vh;">
+    <div class="container d-flex justify-content-center align-items-center h-100">
+        <div class="card p-5 shadow-lg rounded-4 forgot-box" style="width: 500px;">
+            <form asp-action="New">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                <h2 class="mb-4 text-center fw-bold text-success">➕ New Category</h2>
+
+                <div class="form-group mb-3">
+                    <label asp-for="Name" class="form-label fw-semibold"></label>
+                    <input asp-for="Name" class="form-control" required>
+                </div>
+
+                <button class="btn btn-success w-100 rounded-pill fw-semibold shadow-sm">
+                    ✅ Add Category
+                </button>
+
+                <!-- زر الرجوع -->
+                <div class="mt-3 text-center">
+                    <a asp-controller="Category" asp-action="Index" class="btn btn-outline-secondary rounded-pill fw-semibold">
+                        🔙 Back to Categories
+                    </a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script src="~/js/NewRole/bootstrap.js"></script>
+    <script src="~/js/NewRole/main.js"></script>
+}

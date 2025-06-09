@@ -1,0 +1,69 @@
+﻿@model IEnumerable<Bookify.ViewModels.CategoryVM.CategoryVM>
+
+@{
+    Layout = "~/Views/Shared/NewLayout.cshtml";
+    ViewData["Title"] = "All Categories";
+}
+
+<div class="container py-4">
+    <div class="card shadow-lg border-0 rounded-4">
+        <div class="card-header bg-success text-white rounded-top-4 d-flex justify-content-between align-items-center">
+            <h3 class="mb-0">📚 Categories</h3>
+            <a asp-action="New" class="btn btn-light btn-sm fw-bold">
+                + Add New Category
+            </a>
+        </div>
+
+        <div class="card-body bg-white rounded-bottom-4">
+            @if (!Model.Any())
+            {
+                <div class="alert alert-info text-center rounded-3">
+                    No categories found.
+                </div>
+            }
+            else
+            {
+                <div class="table-responsive">
+                    <table class="table table-hover align-middle text-center">
+                        <thead class="table-success">
+                            <tr>
+                                <th>Category Name</th>
+                                <th style="width: 200px;">Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var category in Model)
+                            {
+                                <tr>
+                                    <td class="fw-semibold">@category.Name</td>
+                                    <td>
+                                        <div class="d-flex justify-content-center gap-2">
+                                            <a asp-action="Edit" asp-route-id="@category.Id" class="btn btn-outline-warning btn-sm px-3">
+                                                ✏️ Edit
+                                            </a>
+
+                                            <form asp-action="Delete" asp-route-id="@category.Id" method="post" class="d-inline">
+                                                @Html.AntiForgeryToken()
+                                                <button type="submit" class="btn btn-outline-danger btn-sm px-3"
+                                                        onclick="return confirm('Are you sure you want to delete this category?');">
+                                                    🗑️ Delete
+                                                </button>
+                                            </form>
+                                        </div>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            }
+
+            <!-- زر الرجوع -->
+            <div class="mt-4 d-flex justify-content-end">
+                <a asp-controller="Home" asp-action="AdminPanel" class="btn btn-outline-secondary">
+                    🔙 Back to Admin Panel
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
