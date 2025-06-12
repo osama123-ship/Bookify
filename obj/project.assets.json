@@ -2740,6 +2740,23 @@
           }
         }
       },
+      "Serilog.Sinks.Seq/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "4.2.0",
+          "Serilog.Sinks.File": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Serilog.Sinks.Seq.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Serilog.Sinks.Seq.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.ClientModel/1.0.0": {
         "type": "package",
         "dependencies": {
@@ -7650,6 +7667,23 @@
         "serilog.sinks.file.nuspec"
       ]
     },
+    "Serilog.Sinks.Seq/9.0.0": {
+      "sha512": "aNU8A0K322q7+voPNmp1/qNPH+9QK8xvM1p72sMmCG0wGlshFzmtDW9QnVSoSYCj0MgQKcMOlgooovtBhRlNHw==",
+      "type": "package",
+      "path": "serilog.sinks.seq/9.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "icon.png",
+        "lib/net6.0/Serilog.Sinks.Seq.dll",
+        "lib/net6.0/Serilog.Sinks.Seq.xml",
+        "lib/netstandard2.0/Serilog.Sinks.Seq.dll",
+        "lib/netstandard2.0/Serilog.Sinks.Seq.xml",
+        "serilog.sinks.seq.9.0.0.nupkg.sha512",
+        "serilog.sinks.seq.nuspec"
+      ]
+    },
     "System.ClientModel/1.0.0": {
       "sha512": "I3CVkvxeqFYjIVEP59DnjbeoGNfo/+SZrCLpRz2v/g0gpCHaEMPtWSY0s9k/7jR1rAsLNg2z2u1JRB76tPjnIw==",
       "type": "package",
@@ -8896,7 +8930,8 @@
       "MiniProfiler.AspNetCore.Mvc >= 4.5.4",
       "MiniProfiler.EntityFrameworkCore >= 4.5.4",
       "Serilog.AspNetCore >= 9.0.0",
-      "Serilog.Sinks.File >= 7.0.0"
+      "Serilog.Sinks.File >= 7.0.0",
+      "Serilog.Sinks.Seq >= 9.0.0"
     ]
   },
   "packageFolders": {
@@ -8906,11 +8941,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\Bookify.csproj",
+      "projectUniqueName": "E:\\Bookify\\Bookify.csproj",
       "projectName": "Bookify",
-      "projectPath": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\Bookify.csproj",
+      "projectPath": "E:\\Bookify\\Bookify.csproj",
       "packagesPath": "C:\\Users\\FUTURE\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\obj\\",
+      "outputPath": "E:\\Bookify\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -8998,6 +9033,10 @@
           "Serilog.Sinks.File": {
             "target": "Package",
             "version": "[7.0.0, )"
+          },
+          "Serilog.Sinks.Seq": {
+            "target": "Package",
+            "version": "[9.0.0, )"
           }
         },
         "imports": [

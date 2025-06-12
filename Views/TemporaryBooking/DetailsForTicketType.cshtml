@@ -4,9 +4,9 @@
 @{
     Layout = "~/Views/Shared/NewLayout.cshtml";
     ViewBag.Title = "Temporary Reservations";
-    string path = "/Event/DisplayForAdmin";
-    if (User.IsInRole("Company"))
-        path = "/Company/DisplayAllForCompany";
+ 
+    int EventId = (int)TempData["EventId"];
+    TempData.Keep("EventId");
 }
  
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
@@ -96,7 +96,8 @@
 
     <div class="mb-4 d-flex justify-content-between align-items-center flex-wrap gap-2" data-aos="fade-right">
         <input type="text" id="searchInput" class="search-box" placeholder="🔍 Search by Username..." onkeyup="filterTable()" />
-        <a href="@path" class="btn btn-secondary back-btn shadow-sm">⬅️ Back to Panel</a>
+        <a asp-action="TicketTypeDetailsForAdmin" asp-controller="TicketType"
+           asp-route-EventId="@EventId" class="btn btn-secondary back-btn shadow-sm">⬅️ Back to Events</a>
     </div>
 
     @if (Model == null || !Model.Any())

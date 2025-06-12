@@ -52,6 +52,31 @@
         font-size: 0.95rem;
         color: #495057;
     }
+
+    .clickable-pill {
+        cursor: pointer;
+        transition: background-color 0.2s ease;
+    }
+
+    .stat-pill.temp.clickable-pill:hover {
+        background-color: #d65f00; /* لون أغمق للبرتقالي */
+    }
+
+    .stat-pill.total.clickable-pill:hover {
+        background-color: #52b788; /* لون أغمق للأخضر الفاتح */
+    }
+
+    .stat-pill.confirmed {
+        background-color: #118ab2; /* أزرق لطيف */
+        color: #fff;
+    }
+
+        .stat-pill.confirmed.clickable-pill:hover {
+            background-color: #0d6a8a; /* أزرق أغمق عند الهوفر */
+        }
+
+
+
 </style>
 
 <div class="container mt-5">
@@ -74,12 +99,22 @@
                         <p class="mb-1"><span class="ticket-label">🕐 In Temporary:</span> <span class="ticket-value">@InTemporary</span></p>
                         <p class="mb-3"><span class="ticket-label">💵 Price:</span> <span class="ticket-value">@item.Price.ToString("C0")</span></p>
 
-                        <div class="mt-auto d-flex justify-content-between align-items-center">
+                        <div class="mt-auto d-flex justify-content-between align-items-center flex-wrap gap-2">
 
-                            <span class="stat-pill temp" style="cursor:pointer;" onclick="location.href='@Url.Action("DetailsForTicketType", "TemporaryBooking",
-                             new { EventId=item.EventId ,TicketTypeId=item.TicketTypeId})'">🕓 Temp: @InTemporary</span>
+                            <span class="stat-pill confirmed clickable-pill"
+                                  onclick="location.href='@Url.Action("ConfirmedTickets", "Ticket", new { EventId = item.EventId, TicketTypeId = item.TicketTypeId })'">
+                                ✅ Confirmed: @item.ConfirmedTickets
+                            </span>
+
+
+                            <span class="stat-pill temp clickable-pill"
+                                  onclick="location.href='@Url.Action("DetailsForTicketType", "TemporaryBooking", new { EventId=item.EventId ,TicketTypeId=item.TicketTypeId})'">
+                                🕓 Temp: @InTemporary
+                            </span>
+
 
                             <span class="stat-pill sales">💰 Sales: @Sales.ToString("C0")</span>
+
                         </div>
                     </div>
                 </div>
@@ -90,7 +125,7 @@
     <div class="d-flex justify-content-center mt-4">
         
         <a href=@path class="btn btn-secondary rounded-pill fw-bold px-4 shadow-sm">
-            ⬅️ Back to Panel
+            ⬅️ Back to Events
         </a>
         
     </div>

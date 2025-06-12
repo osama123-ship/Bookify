@@ -62,7 +62,7 @@ namespace Bookify.Controllers
             if (ModelState.IsValid)
             {
                 string userId = User.GetUserIdFromClaim();
-                logger.LogInformation("Add POST called by UserId={UserId}", userId);
+                logger.LogInformation("Add called by UserId={UserId}", userId);
 
                 await eventService.AddAsync(newEventVM, userId);
                 return RedirectToAction("DisplayAllForCompany", "Company");

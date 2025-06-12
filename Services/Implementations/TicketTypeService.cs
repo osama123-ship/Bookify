@@ -10,12 +10,14 @@ namespace Bookify.Services.Implementations
     {
         private readonly ITicketTypeRepository ticketTypeRepository;
         private readonly ITemporaryBookingRepository temporaryRepository;
+        private readonly ITicketRepository ticketRepository;
 
         public TicketTypeService(ITicketTypeRepository ticketTypeRepository, ITemporaryBookingRepository temporaryRepository,
-            IBaseRepository<TicketType> repository) : base(repository) 
+            IBaseRepository<TicketType> repository,ITicketRepository ticketRepository) : base(repository) 
         {
             this.ticketTypeRepository = ticketTypeRepository;
             this.temporaryRepository = temporaryRepository;
+            this.ticketRepository = ticketRepository;
         }
         public async Task AddAsync(NewTicketTypeVM New,int EventId)
         {
@@ -34,15 +36,17 @@ namespace Bookify.Services.Implementations
             List< DetailsForAdminVM> VM = new List<DetailsForAdminVM>();
             foreach (var t in tickets)
             {
+                int ConfirmedTickets = await ticketRepository.CountConfirmedTicketsAsync(t.Id);
+                int TemporaryTickets = temporaryRepository.Count(t.Id);
                 VM.Add(new DetailsForAdminVM
                 {
                     TicketTypeId = t.Id,
                     EventId = EventId,
                     Name = t.Name,
                     TotalTickets = t.TotalTickets,
-                    ConfirmedTickets = t.ConfirmedTickets,
-                    AvailableTickets = t.TotalTickets - t.ConfirmedTickets - temporaryRepository.Count(t.Id),
-                    Price= t.Price
+                    ConfirmedTickets = ConfirmedTickets,
+                    AvailableTickets = t.TotalTickets - ConfirmedTickets - TemporaryTickets,
+                    Price = t.Price
                 });
             }
             return VM;

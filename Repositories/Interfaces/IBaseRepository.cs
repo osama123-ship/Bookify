@@ -18,12 +18,13 @@ namespace Bookify.Repositories.Interfaces
         Task AddAsync(T obj);
         Task<IDbContextTransaction> BeginTransactionAsync();
         Task SaveChangesAsync();
-        Task<List<TicketVM>> GetTicketsByUserIdAsync(string UserId);
+        Task<List<TicketVM>> GetTicketsByUserIdAsync(string UserId, int? TicketTypeId);
         Task<int> GetCompanyIdByUserIdAsync(string UserId);
         Task MakeBookingProcessAsync(string UserId, List<CartItem> cartItems);
         Task<int> CountTicketsForUser(string UserId, int EventId);
         Task AddCompanyAsync(Company company);
         Task<EventFilterVM> FilterEvents(int? CategoryId, int? CompanyId, DateTime? date);
         Task<List<BookingDetailVM>> GetBookingDetails(int BookingId);
+        Task<string> GetTicketTypeName(int TicketTypeId);
     }
 }

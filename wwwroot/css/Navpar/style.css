@@ -1,4 +1,4 @@
-html, body {
+﻿html, body {
     font-family: "Open Sans", sans-serif;
     width: 100vw;
     height: 100vh;
@@ -60,3 +60,6 @@ nav {
     outline: 1px solid var(--second-color) !important; 
     box-shadow: 1px solid var(--second-color) !important; 
 }
+/* animation.css */
+
+ 

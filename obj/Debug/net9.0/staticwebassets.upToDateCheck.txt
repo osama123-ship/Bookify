@@ -1,145 +1,145 @@
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\lib\jquery\dist\jquery.min.js
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\js\ForgetPassword\main.js
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\css\ForgetPassword\all.min.css
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\css\AddEvent\style.css
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\css\ConfirmResetPassword\style.css
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\css\Users\Users.css
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\js\AddEvent\main.js
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\css\Contact\style.css
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\css\About\style.css
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\css\Booking\Booking.css
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\js\Register\main.js
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\lib\jquery\dist\jquery.slim.js
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\lib\jquery\dist\jquery.js
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\css\fontawesome.css
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\css\RoleToUser\all.min.css
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\js\EventCategories\bootstrap.js
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\css\EventCategories\all.min.css
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\js\NewRole\main.js
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\css\HomePage\bootstrap.css
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\lib\jquery-validation\LICENSE.md
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\css\About\all.min.css
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\js\Login\bootstrap.js
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\js\RoleToUser\bootstrap.js
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\css\RoleToUser\style.css
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\css\NewRole\bootstrap.css
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\css\ConfirmResetPassword\bootstrap.css
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\css\SideandFooter\bootstrap.css
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\js\EventCategories\main.js
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\favicon.ico
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\js\ConfirmResetPassword\bootstrap.js
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\css\AddEvent\bootstrap.css
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\lib\bootstrap\dist\js\bootstrap.js
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\js\RoleToUser\main.js
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\css\SendAndGetOtpToResetPassword\bootstrap.css
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\js\Navpar\bootstrap.js
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\css\EventCategories\bootstrap.css
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\js\AddEvent\bootstrap.js
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\css\Register\style.css
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\lib\jquery-validation\dist\jquery.validate.js
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\css\Login\style.css
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\js\About\main.js
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\js\HomePage\bootstrap.js
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\js\SendAndGetOtpToResetPassword\main.js
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\lib\jquery-validation\dist\additional-methods.js
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\js\Contact\main.js
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\js\HomePage\main.js
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\css\SendAndGetOtpToResetPassword\style.css
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\js\About\bootstrap.js
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\js\ConfirmAccount\bootstrap.js
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\css\SideandFooter\style.css
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\lib\jquery\dist\jquery.slim.min.js
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\css\Register\bootstrap.css
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\css\ConfirmAccount\bootstrap.css
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\css\ConfirmAccount\style.css
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\css\Login\all.min.css
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\js\Login\main.js
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\js\ForgetPassword\bootstrap.js
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\css\Register\all.min.css
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\lib\bootstrap\dist\css\bootstrap.css
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\js\ConfirmResetPassword\main.js
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\css\EventCategories\style.css
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\js\NewRole\bootstrap.js
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\lib\jquery\dist\jquery.min.map
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\css\NewPassword\bootstrap.css
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\css\HomePage\style.css
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\css\NewRole\style.css
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\js\ConfirmAccount\main.js
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\js\site.js
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\js\SideandFooter\main.js
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\lib\jquery\LICENSE.txt
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\css\SendAndGetOtpToResetPassword\all.min.css
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\css\Navpar\style.css
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\css\ConfirmAccount\all.min.css
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\js\Register\bootstrap.js
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\css\Login\bootstrap.css
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\css\NewPassword\style.css
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\css\Navpar\bootstrap.css
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\css\NewPassword\all.min.css
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\css\NewRole\all.min.css
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\css\AddEvent\all.min.css
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\js\NewPassword\main.js
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\js\SideandFooter\bootstrap.js
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\css\ConfirmResetPassword\all.min.css
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\js\NewPassword\bootstrap.js
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\css\SideandFooter\all.min.css
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\css\RoleToUser\bootstrap.css
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\css\Contact\all.min.css
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\js\SendAndGetOtpToResetPassword\bootstrap.js
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\css\Contact\bootstrap.css
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\lib\jquery\dist\jquery.slim.min.map
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\js\Navpar\main.js
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\css\About\bootstrap.css
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\css\ForgetPassword\style.css
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\js\Contact\bootstrap.js
-C:\Users\FUTURE\OneDrive\سطح المكتب\Bookify\wwwroot\css\ForgetPassword\bootstrap.css
+E:\Bookify\wwwroot\lib\jquery\dist\jquery.min.js
+E:\Bookify\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+E:\Bookify\wwwroot\js\ForgetPassword\main.js
+E:\Bookify\wwwroot\css\ForgetPassword\all.min.css
+E:\Bookify\wwwroot\css\AddEvent\style.css
+E:\Bookify\wwwroot\css\ConfirmResetPassword\style.css
+E:\Bookify\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+E:\Bookify\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+E:\Bookify\wwwroot\css\Users\Users.css
+E:\Bookify\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+E:\Bookify\wwwroot\js\AddEvent\main.js
+E:\Bookify\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+E:\Bookify\wwwroot\css\Contact\style.css
+E:\Bookify\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+E:\Bookify\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+E:\Bookify\wwwroot\css\About\style.css
+E:\Bookify\wwwroot\css\Booking\Booking.css
+E:\Bookify\wwwroot\js\Register\main.js
+E:\Bookify\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+E:\Bookify\wwwroot\lib\jquery\dist\jquery.slim.js
+E:\Bookify\wwwroot\lib\jquery\dist\jquery.js
+E:\Bookify\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+E:\Bookify\wwwroot\css\fontawesome.css
+E:\Bookify\wwwroot\css\RoleToUser\all.min.css
+E:\Bookify\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+E:\Bookify\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+E:\Bookify\wwwroot\js\EventCategories\bootstrap.js
+E:\Bookify\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+E:\Bookify\wwwroot\css\EventCategories\all.min.css
+E:\Bookify\wwwroot\js\NewRole\main.js
+E:\Bookify\wwwroot\css\HomePage\bootstrap.css
+E:\Bookify\wwwroot\lib\jquery-validation\LICENSE.md
+E:\Bookify\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+E:\Bookify\wwwroot\css\About\all.min.css
+E:\Bookify\wwwroot\js\Login\bootstrap.js
+E:\Bookify\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+E:\Bookify\wwwroot\js\RoleToUser\bootstrap.js
+E:\Bookify\wwwroot\css\RoleToUser\style.css
+E:\Bookify\wwwroot\css\NewRole\bootstrap.css
+E:\Bookify\wwwroot\css\ConfirmResetPassword\bootstrap.css
+E:\Bookify\wwwroot\css\SideandFooter\bootstrap.css
+E:\Bookify\wwwroot\js\EventCategories\main.js
+E:\Bookify\wwwroot\favicon.ico
+E:\Bookify\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+E:\Bookify\wwwroot\js\ConfirmResetPassword\bootstrap.js
+E:\Bookify\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+E:\Bookify\wwwroot\css\AddEvent\bootstrap.css
+E:\Bookify\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+E:\Bookify\wwwroot\js\RoleToUser\main.js
+E:\Bookify\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+E:\Bookify\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+E:\Bookify\wwwroot\css\SendAndGetOtpToResetPassword\bootstrap.css
+E:\Bookify\wwwroot\js\Navpar\bootstrap.js
+E:\Bookify\wwwroot\css\EventCategories\bootstrap.css
+E:\Bookify\wwwroot\js\AddEvent\bootstrap.js
+E:\Bookify\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+E:\Bookify\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+E:\Bookify\wwwroot\css\Register\style.css
+E:\Bookify\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+E:\Bookify\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+E:\Bookify\wwwroot\css\Login\style.css
+E:\Bookify\wwwroot\js\About\main.js
+E:\Bookify\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+E:\Bookify\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+E:\Bookify\wwwroot\js\HomePage\bootstrap.js
+E:\Bookify\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+E:\Bookify\wwwroot\js\SendAndGetOtpToResetPassword\main.js
+E:\Bookify\wwwroot\lib\jquery-validation\dist\additional-methods.js
+E:\Bookify\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+E:\Bookify\wwwroot\js\Contact\main.js
+E:\Bookify\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+E:\Bookify\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+E:\Bookify\wwwroot\js\HomePage\main.js
+E:\Bookify\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+E:\Bookify\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
+E:\Bookify\wwwroot\css\SendAndGetOtpToResetPassword\style.css
+E:\Bookify\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+E:\Bookify\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+E:\Bookify\wwwroot\js\About\bootstrap.js
+E:\Bookify\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+E:\Bookify\wwwroot\js\ConfirmAccount\bootstrap.js
+E:\Bookify\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+E:\Bookify\wwwroot\css\SideandFooter\style.css
+E:\Bookify\wwwroot\lib\jquery\dist\jquery.slim.min.js
+E:\Bookify\wwwroot\css\Register\bootstrap.css
+E:\Bookify\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+E:\Bookify\wwwroot\css\ConfirmAccount\bootstrap.css
+E:\Bookify\wwwroot\css\ConfirmAccount\style.css
+E:\Bookify\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+E:\Bookify\wwwroot\css\Login\all.min.css
+E:\Bookify\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+E:\Bookify\wwwroot\js\Login\main.js
+E:\Bookify\wwwroot\js\ForgetPassword\bootstrap.js
+E:\Bookify\wwwroot\css\Register\all.min.css
+E:\Bookify\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+E:\Bookify\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+E:\Bookify\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+E:\Bookify\wwwroot\js\ConfirmResetPassword\main.js
+E:\Bookify\wwwroot\css\EventCategories\style.css
+E:\Bookify\wwwroot\js\NewRole\bootstrap.js
+E:\Bookify\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+E:\Bookify\wwwroot\lib\jquery\dist\jquery.min.map
+E:\Bookify\wwwroot\css\NewPassword\bootstrap.css
+E:\Bookify\wwwroot\css\HomePage\style.css
+E:\Bookify\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+E:\Bookify\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+E:\Bookify\wwwroot\css\NewRole\style.css
+E:\Bookify\wwwroot\js\ConfirmAccount\main.js
+E:\Bookify\wwwroot\js\site.js
+E:\Bookify\wwwroot\js\SideandFooter\main.js
+E:\Bookify\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+E:\Bookify\wwwroot\lib\jquery\LICENSE.txt
+E:\Bookify\wwwroot\css\SendAndGetOtpToResetPassword\all.min.css
+E:\Bookify\wwwroot\css\Navpar\style.css
+E:\Bookify\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+E:\Bookify\wwwroot\css\ConfirmAccount\all.min.css
+E:\Bookify\wwwroot\js\Register\bootstrap.js
+E:\Bookify\wwwroot\css\Login\bootstrap.css
+E:\Bookify\wwwroot\css\NewPassword\style.css
+E:\Bookify\wwwroot\css\Navpar\bootstrap.css
+E:\Bookify\wwwroot\css\NewPassword\all.min.css
+E:\Bookify\wwwroot\css\NewRole\all.min.css
+E:\Bookify\wwwroot\css\AddEvent\all.min.css
+E:\Bookify\wwwroot\js\NewPassword\main.js
+E:\Bookify\wwwroot\js\SideandFooter\bootstrap.js
+E:\Bookify\wwwroot\css\ConfirmResetPassword\all.min.css
+E:\Bookify\wwwroot\js\NewPassword\bootstrap.js
+E:\Bookify\wwwroot\css\SideandFooter\all.min.css
+E:\Bookify\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+E:\Bookify\wwwroot\css\RoleToUser\bootstrap.css
+E:\Bookify\wwwroot\css\Contact\all.min.css
+E:\Bookify\wwwroot\js\SendAndGetOtpToResetPassword\bootstrap.js
+E:\Bookify\wwwroot\css\Contact\bootstrap.css
+E:\Bookify\wwwroot\lib\jquery\dist\jquery.slim.min.map
+E:\Bookify\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+E:\Bookify\wwwroot\js\Navpar\main.js
+E:\Bookify\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
+E:\Bookify\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+E:\Bookify\wwwroot\css\About\bootstrap.css
+E:\Bookify\wwwroot\css\ForgetPassword\style.css
+E:\Bookify\wwwroot\js\Contact\bootstrap.js
+E:\Bookify\wwwroot\css\ForgetPassword\bootstrap.css
 wwwroot\css\About\all.min.css
 wwwroot\css\About\bootstrap.css
 wwwroot\css\About\style.css
@@ -191,7 +191,6 @@ wwwroot\css\SideandFooter\style.css
 wwwroot\css\Users\Users.css
 wwwroot\favicon.ico
 wwwroot\Images\advantages.png
-wwwroot\Images\Bookfiy-logo 2.png
 wwwroot\Images\Consert.jpg
 wwwroot\Images\Ellipse 25.png
 wwwroot\Images\Ellipse 26.png

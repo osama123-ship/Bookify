@@ -6,6 +6,8 @@
         public int Quantity { get; set; }
         public int TicketTypeId { get; set; }
         public int PricePerTicket { get; set; }
+        public string EventName { get; set; }
+        public string TicketTypeName { get; set; }
         public override bool Equals(object obj)
         {
             if (obj is CartItem other)

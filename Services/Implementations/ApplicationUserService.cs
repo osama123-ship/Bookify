@@ -161,5 +161,12 @@ namespace Bookify.Services.Implementations
             GetObject<List<CartItem>>("Cart") ?? new List<CartItem>();
             await MakeBookingProcessAsync(UserId, cartItems);
         }
+        public async Task<string> GetUserId(string UserName)
+        {
+            ApplicationUser user = await userManager.FindByNameAsync(UserName);
+            if (user == null)
+                return string.Empty;
+            return user.Id;
+        }
     }
 }

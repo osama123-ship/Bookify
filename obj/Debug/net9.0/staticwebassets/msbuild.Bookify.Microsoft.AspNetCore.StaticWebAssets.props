@@ -462,8 +462,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>oetril0tz5</Fingerprint>
-      <Integrity>YCxrTSXO6pfwW/G4CmQi7erYrS5V7xMcnDQuk+Bmfrc=</Integrity>
+      <Fingerprint>39v9f5kkls</Fingerprint>
+      <Integrity>iRZkWX/1N3H9569z5KpdPHHOw9/tnJB60SIDG4+NDHU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\HomePage\style.css'))</OriginalItemSpec>
@@ -552,8 +552,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>u0whyrhzbb</Fingerprint>
-      <Integrity>XjpdowQXSTxQwy5DgXofo1dDP6tn3zK8JfKyHXVzXkg=</Integrity>
+      <Fingerprint>qqm39qbpgw</Fingerprint>
+      <Integrity>4taXd88qccxwsPtJeUa2zkOVypBvRtEyMjx+5J0pbUY=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\Navpar\style.css'))</OriginalItemSpec>
@@ -876,8 +876,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>3730ux40je</Fingerprint>
-      <Integrity>0a24ap1OCn/rIFWviEXyTanjiwMxqa5g1ikg0PIa27k=</Integrity>
+      <Fingerprint>h9h5v22ap5</Fingerprint>
+      <Integrity>W7ICXJl8msu7VtTxKnTr8mHBhDYL/RsVIHXTm2Aon2g=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\SideandFooter\style.css'))</OriginalItemSpec>
@@ -935,24 +935,6 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\advantages.png'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Bookfiy-logo 2.png'))">
-      <SourceType>Package</SourceType>
-      <SourceId>Bookify</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Bookify</BasePath>
-      <RelativePath>Images/Bookfiy-logo 2.png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>oi0xoat1cx</Fingerprint>
-      <Integrity>4BCM00FYygJ7JTU+eSme65rQIcySVJpqb6ZYFp4fZWk=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Bookfiy-logo 2.png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Consert.jpg'))">
       <SourceType>Package</SourceType>
@@ -1362,8 +1344,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>oi0xoat1cx</Fingerprint>
-      <Integrity>4BCM00FYygJ7JTU+eSme65rQIcySVJpqb6ZYFp4fZWk=</Integrity>
+      <Fingerprint>vy5pj4f84k</Fingerprint>
+      <Integrity>iaKE5uQZKLihILuqMrKU3y29X8P5d2h5zFGrOPt5cQE=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Logo.png'))</OriginalItemSpec>

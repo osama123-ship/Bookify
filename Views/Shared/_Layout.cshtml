@@ -22,6 +22,7 @@
             min-height: 100vh;  
         }
 
+
     </style>
 </head>
 <body>
@@ -46,14 +47,13 @@
 
 
   
-    <div>
-        <main >
+  <div>
             @RenderBody()
-        </main>
     </div>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="/js/Navpar/bootstrap.js" asp-append-version="true"></script>
     <script src="/js/Navpar/main.js" asp-append-version="true"></script>
+
     @await RenderSectionAsync("Scripts", required: false)
 
 </body>

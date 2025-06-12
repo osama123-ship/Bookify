@@ -5,6 +5,7 @@ using Bookify.ViewModels.EventVM;
 using Bookify.ViewModels.TicketVM;
 using Bookify.Services.Interfaces;
 using Bookify.ViewModels.BookingDetailsVM;
+using Bookify.Repositories.Implementations;
 
 namespace Bookify.Services.Implementations
 {
@@ -15,9 +16,9 @@ namespace Bookify.Services.Implementations
         {
             this.repository = repository;
         }
-        public async Task<List<TicketVM>> GetTicketsByUserIdAsync(string UserId)
+        public async Task<List<TicketVM>> GetTicketsByUserIdAsync(string UserId,int? TicketTypeId)
         {
-            return await repository.GetTicketsByUserIdAsync(UserId);
+            return await repository.GetTicketsByUserIdAsync(UserId, TicketTypeId);
         }
         public async Task MakeBookingProcessAsync(string UserId, List<CartItem> cartItems)
         {
@@ -35,6 +36,10 @@ namespace Bookify.Services.Implementations
         {
             return await repository.GetBookingDetails(BookingId);
         }
-    }
+        public async Task<string> GetTicketTypeName(int TicketTypeId)
+        {
+            return await repository.GetTicketTypeName(TicketTypeId);
+        }
 
+    }
 }

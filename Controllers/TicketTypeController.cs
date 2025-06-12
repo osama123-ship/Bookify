@@ -40,6 +40,7 @@ namespace Bookify.Controllers
         public async Task<IActionResult> TicketTypeDetailsForAdmin(int EventId)
         {
             List<DetailsForAdminVM> Tickets = await ticketTypeService.TicketTypeDetailsForAdmin(EventId);
+            TempData["EventId"] = EventId;
             return View(Tickets);
         }
     }

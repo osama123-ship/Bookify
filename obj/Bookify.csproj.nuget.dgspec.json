@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\Bookify.csproj": {}
+    "E:\\Bookify\\Bookify.csproj": {}
   },
   "projects": {
-    "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\Bookify.csproj": {
+    "E:\\Bookify\\Bookify.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\Bookify.csproj",
+        "projectUniqueName": "E:\\Bookify\\Bookify.csproj",
         "projectName": "Bookify",
-        "projectPath": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\Bookify.csproj",
+        "projectPath": "E:\\Bookify\\Bookify.csproj",
         "packagesPath": "C:\\Users\\FUTURE\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\obj\\",
+        "outputPath": "E:\\Bookify\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -99,6 +99,10 @@
             "Serilog.Sinks.File": {
               "target": "Package",
               "version": "[7.0.0, )"
+            },
+            "Serilog.Sinks.Seq": {
+              "target": "Package",
+              "version": "[9.0.0, )"
             }
           },
           "imports": [

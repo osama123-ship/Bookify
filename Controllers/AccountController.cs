@@ -192,7 +192,8 @@ namespace Bookify.Controllers
         public async Task<IActionResult> MyTickets()
         {
             UserId = User.GetUserIdFromClaim();
-            List<TicketVM> tickets = await userService.GetTicketsByUserIdAsync(UserId);
+
+            List<TicketVM> tickets = await userService.GetTicketsByUserIdAsync(UserId, null);
             return View(tickets);
         }
         [Authorize]

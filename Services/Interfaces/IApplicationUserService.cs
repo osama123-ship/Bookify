@@ -21,6 +21,7 @@ namespace Bookify.Services.Interfaces
         long CalcTotalPriceForCart(List<CartItem> cartItems);
         Task<bool> CheckOut(string UserId);
         Task MakeBookingProcessAsync(string UserId);
+        Task<string> GetUserId(string UserName);
 
     }
 }

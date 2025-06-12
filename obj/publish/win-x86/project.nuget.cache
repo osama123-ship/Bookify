@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hStrQsl56Ww=",
+  "dgSpecHash": "Df/OJb2Hfl0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\FUTURE\\OneDrive\\سطح المكتب\\Bookify\\Bookify.csproj",
+  "projectFilePath": "E:\\Bookify\\Bookify.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\FUTURE\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\FUTURE\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
@@ -155,6 +155,7 @@
     "C:\\Users\\FUTURE\\.nuget\\packages\\serilog.sinks.console\\6.0.0\\serilog.sinks.console.6.0.0.nupkg.sha512",
     "C:\\Users\\FUTURE\\.nuget\\packages\\serilog.sinks.debug\\3.0.0\\serilog.sinks.debug.3.0.0.nupkg.sha512",
     "C:\\Users\\FUTURE\\.nuget\\packages\\serilog.sinks.file\\7.0.0\\serilog.sinks.file.7.0.0.nupkg.sha512",
+    "C:\\Users\\FUTURE\\.nuget\\packages\\serilog.sinks.seq\\9.0.0\\serilog.sinks.seq.9.0.0.nupkg.sha512",
     "C:\\Users\\FUTURE\\.nuget\\packages\\system.clientmodel\\1.0.0\\system.clientmodel.1.0.0.nupkg.sha512",
     "C:\\Users\\FUTURE\\.nuget\\packages\\system.codedom\\6.0.0\\system.codedom.6.0.0.nupkg.sha512",
     "C:\\Users\\FUTURE\\.nuget\\packages\\system.collections.immutable\\8.0.0\\system.collections.immutable.8.0.0.nupkg.sha512",

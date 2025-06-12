@@ -2,11 +2,13 @@
 using Bookify.Models;
 using Bookify.Repositories.Interfaces;
 using Bookify.ViewModels.UserVM;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 namespace Bookify.Repositories.Implementations
 {
+    [Authorize(Roles ="Admin")]
     public class UserRepository : BaseRepository<ApplicationUser>, IUserRepository
     {
         private readonly UserManager<ApplicationUser> userManager;
@@ -75,7 +77,6 @@ namespace Bookify.Repositories.Implementations
             }
         }
         public Context Context => context;
-
     }
 }
 

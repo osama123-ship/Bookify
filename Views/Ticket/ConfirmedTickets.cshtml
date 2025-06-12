@@ -1,0 +1,177 @@
+﻿@using Bookify.ViewModels.TicketVM
+@model List<ConfirmedTicketsVM>
+
+@{
+    Layout = "~/Views/Shared/NewLayout.cshtml";
+    ViewBag.Title = "Confirmed Tickets Overview";
+    string TicketTypeName = ViewBag.TicketTypeName;
+    int TicketTypeId = ViewBag.TicketTypeId;
+    int EventId = (int)TempData["EventId"];
+    TempData.Keep("EventId");
+}
+
+<style>
+    input[type="text"]::placeholder {
+        color: #6c757d;
+        font-style: italic;
+    }
+
+    .btn-success.btn-sm:hover {
+        background-color: #146c43;
+    }
+
+    .empty-state {
+        padding: 2rem;
+        border: 2px dashed #ced4da;
+        border-radius: 1rem;
+        background-color: #f8f9fa;
+    }
+
+        .empty-state i {
+            color: #adb5bd;
+            animation: pulse 1.5s infinite;
+        }
+
+    @@keyframes pulse {
+        0%
+
+    {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    50% {
+        transform: scale(1.1);
+        opacity: 0.7;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    }
+
+    .confirmed-table {
+        background-color: #ffffff;
+        border-radius: 1rem;
+        overflow: hidden;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    }
+
+        .confirmed-table th {
+            background-color: #2d6a4f;
+            color: white;
+            padding: 1rem;
+            font-size: 1rem;
+            text-align: center;
+        }
+
+        .confirmed-table td {
+            padding: 0.9rem 1rem;
+            text-align: center;
+            vertical-align: middle;
+            font-size: 0.95rem;
+            color: #2d2d2d;
+        }
+
+    .details-icon {
+        background-color: #52b788;
+        color: white;
+        padding: 0.5rem 0.75rem;
+        border-radius: 50%;
+        transition: background-color 0.3s, transform 0.2s;
+        cursor: pointer;
+        display: inline-block;
+    }
+
+        .details-icon:hover {
+            background-color: #40916c;
+            transform: scale(1.1);
+        }
+
+    .table-wrapper {
+        margin-top: 3rem;
+    }
+
+    .page-header {
+        font-weight: bold;
+        font-size: 1.8rem;
+        color: #1b4332;
+        margin-bottom: 1.5rem;
+        text-align: center;
+    }
+
+    .custom-header {
+        font-size: 1.6rem;
+        font-weight: 700;
+        color: #155724;
+        background-color: #d4edda;
+        padding: 0.75rem 1.25rem;
+        border-left: 5px solid #28a745;
+        border-radius: 0.5rem;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+</style>
+
+<div class="container table-wrapper">
+    <h2 class="custom-header">
+        🎟️ Confirmed Tickets for "@TicketTypeName"
+    </h2>
+    <div class="d-flex justify-content-between align-items-center mb-4 flex-wrap gap-2">
+        <!-- Back Button -->
+        <a asp-action="TicketTypeDetailsForAdmin" asp-controller="TicketType"
+           asp-route-EventId="@EventId" class="btn btn-outline-secondary fw-semibold rounded-pill shadow-sm">
+            ⬅️ Back to Events
+        </a>
+
+        <!-- Search Form -->
+        <form asp-action="ConfirmedTickets" asp-controller="Ticket" method="get" class="d-flex align-items-center gap-2">
+            <input type="hidden" name="TicketTypeId" value="@TicketTypeId" />
+            <input type="text" name="UserName" class="form-control form-control-sm rounded-pill shadow-sm"
+                   placeholder="🔍 Search by username..." style="max-width: 250px;" />
+            <button type="submit" class="btn btn-success btn-sm rounded-pill shadow-sm">Search</button>
+        </form>
+    </div>
+
+    @if (Model == null || !Model.Any())
+    {
+        <div class="empty-state text-center my-5">
+            <i class="fas fa-ticket-alt fa-3x mb-3 text-muted"></i>
+            <h4 class="text-muted">No confirmed tickets found for this type yet 🎫</h4>
+            <p class="text-secondary">Looks like no users have booked tickets yet.</p>
+        </div>
+    }
+    else
+    {
+
+        <table class="table table-hover shadow-sm rounded bg-white">
+            <thead class="table-success">
+                <tr>
+                    <th>User Name</th>
+                    <th>Quantity</th>
+                    <th>Details</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.UserName</td>
+                        <td>@item.Quantity</td>
+                        <td>
+                            <a class="btn btn-outline-success btn-sm d-flex align-items-center gap-1"
+                               title="View reserved tickets"
+                               href="@Url.Action("ConfirmedTicketsDetails", "Ticket", new { ticketTypeId = item.TicketTypeId, userName = item.UserName })">
+                                <i class="fas fa-search"></i>
+                                <span class="small">Details</span>
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+
+</div>

@@ -6,6 +6,7 @@ using Bookify.ViewModels.BookingDetailsVM;
 using Bookify.ViewModels.EventVM;
 using Bookify.ViewModels.TicketTypeVM;
 using Bookify.ViewModels.TicketVM;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Storage;
@@ -18,6 +19,7 @@ namespace Bookify.Repositories.Implementations
     public class BaseRepository<T> : IBaseRepository<T> where T : class
     {
         protected readonly Context context;
+
         public BaseRepository(Context context)
         {
             this.context = context;
@@ -41,7 +43,7 @@ namespace Bookify.Repositories.Implementations
         {
             await context.SaveChangesAsync();
         }
-        public async Task<List<TicketVM>>GetTicketsByUserIdAsync(string UserId)
+        public async Task<List<TicketVM>>GetTicketsByUserIdAsync(string UserId,int? TicketTypeId)
         {
             List<TicketVM> ticketsVM = new List<TicketVM>();
 
@@ -60,6 +62,11 @@ namespace Bookify.Repositories.Implementations
                         if(ok)
                         {
                             ticketType = await context.TicketTypes.AsNoTracking().Where(t => t.Id == ticket.TicketTypeId).FirstAsync();
+                            if (TicketTypeId.HasValue)
+                            {
+                                if (ticketType.Id != TicketTypeId)
+                                    break;
+                            }
                             @event = await context.Events.AsNoTracking().Where(e => e.Id == ticketType.EventId).FirstAsync();
                             ok = false;
                         }
@@ -196,5 +203,15 @@ namespace Bookify.Repositories.Implementations
             }
             return show;
         }
+        public async Task<string> GetTicketTypeName(int TicketTypeId)
+        {
+            TicketType ticket = await context.TicketTypes.AsNoTracking().FirstOrDefaultAsync(t => t.Id == TicketTypeId);
+            if (ticket == null)
+                return "None";
+            return ticket.Name;
+        }
+
+  
+
     }
 }

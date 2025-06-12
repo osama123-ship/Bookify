@@ -1,4 +1,4 @@
-using Bookify.Data;
+﻿using Bookify.Data;
 using Bookify.Models;
 using Bookify.Repositories.Implementations;
 using Bookify.Repositories.Interfaces;
@@ -10,6 +10,7 @@ using Serilog;
 using Hangfire;
 using Hangfire.SqlServer;
 using StackExchange.Profiling;
+using Serilog.Events;
 
 
 namespace Bookify
@@ -21,8 +22,17 @@ namespace Bookify
 
             var builder = WebApplication.CreateBuilder(args);
             Log.Logger = new LoggerConfiguration()
-            .WriteTo.File("Logs/log-.txt", rollingInterval: RollingInterval.Day)
-            .CreateLogger();
+     .MinimumLevel.Information()
+     .MinimumLevel.Override("Microsoft", LogEventLevel.Warning)
+     .Filter.ByExcluding(logEvent =>
+         logEvent.Properties.ContainsKey("RequestPath") &&
+         logEvent.Properties["RequestPath"].ToString().Contains("/_vs") // مثلاً تستبعد طلبات محددة
+     )
+     .WriteTo.Seq("http://localhost:5341")
+     .CreateLogger();
+
+
+
 
             builder.Host.UseSerilog();
 
@@ -33,6 +43,7 @@ namespace Bookify
             #region Services
             builder.Services.AddScoped(typeof(IBaseService<>), typeof(BaseService<>));
             builder.Services.AddScoped<IUserService, UserService>();
+            builder.Services.AddScoped<ITicketService,TicketService>();
             builder.Services.AddScoped<IApplicationUserService, ApplicationUserService>();
             builder.Services.AddScoped<IEventService, EventService>();
             builder.Services.AddScoped<ICategoryService, CategoryService>();
@@ -56,6 +67,7 @@ namespace Bookify
             builder.Services.AddScoped<IBookingRepository, BookingRepository>();
             builder.Services.AddScoped<IBookingDetailsRepository, BookingDetailsRepository>();
             builder.Services.AddScoped<IUserRepository, UserRepository>();
+            builder.Services.AddScoped<ITicketRepository, TicketRepository>();
             #endregion
 
             string? ConnectionString = builder.Configuration.GetConnectionString("Cs");

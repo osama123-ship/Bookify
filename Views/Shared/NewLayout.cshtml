@@ -130,7 +130,7 @@
         </div>
     </div>
 
-    <div class="d-flex flex-column min-vh-100">
+    <div class="d-flex flex-column min-vh-100 page-content">
         <main class="flex-fill">
             @RenderBody()
         </main>
@@ -212,7 +212,12 @@
         var dropdownList = dropdownElementList.map(function (dropdownToggleEl) {
           return new bootstrap.Dropdown(dropdownToggleEl)
         })
-
+             document.addEventListener("DOMContentLoaded", function () {
+            const content = document.querySelector(".page-content");
+            if (content) {
+                content.classList.add("show");
+            }
+        });
     </script>
 </body>
 </html>
